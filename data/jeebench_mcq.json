@@ -1,0 +1,1774 @@
+{
+  "questions": [
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-1",
+      "subject": "Physics",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "In a historical experiment to determine Planck's constant, a metal surface was irradiated with light of different wavelengths. The emitted photoelectron energies were measured by applying a stopping potential. The relevant data for the wavelength $(\\lambda)$ of incident light and the corresponding stopping potential $\\left(V_{0}\\right)$ are given below : \\begin{center} \\begin{tabular}{cc} \\hline $\\lambda(\\mu \\mathrm{m})$ & $V_{0}($ Volt $)$ \\\\ \\hline 0.3 & 2.0 \\\\ 0.4 & 1.0 \\\\ 0.5 & 0.4 \\\\ \\hline \\end{tabular} \\end{center} Given that $c=3 \\times 10^{8} \\mathrm{~m} \\mathrm{~s}^{-1}$ and $e=1.6 \\times 10^{-19} \\mathrm{C}$, Planck's constant (in units of $J \\mathrm{~s}$ ) found from such an experiment is",
+      "options": [
+        "$6.0 \\times 10^{-34}$",
+        "$6.4 \\times 10^{-34}$",
+        "$6.6 \\times 10^{-34}$",
+        "$6.8 \\times 10^{-34}$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 1,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-2",
+      "subject": "Physics",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "A uniform wooden stick of mass $1.6 \\mathrm{~kg}$ and length $l$ rests in an inclined manner on a smooth, vertical wall of height $h(<l)$ such that a small portion of the stick extends beyond the wall. The reaction force of the wall on the stick is perpendicular to the stick. The stick makes an angle of $30^{\\circ}$ with the wall and the bottom of the stick is on a rough floor. The reaction of the wall on the stick is equal in magnitude to the reaction of the floor on the stick. The ratio $h / l$ and the frictional force $f$ at the bottom of the stick are $\\left(g=10 \\mathrm{~ms} \\mathrm{~s}^{2}\\right)$",
+      "options": [
+        "$\\frac{h}{l}=\\frac{\\sqrt{3}}{16}, f=\\frac{16 \\sqrt{3}}{3} \\mathrm{~N}$",
+        "$\\frac{h}{l}=\\frac{3}{16}, f=\\frac{16 \\sqrt{3}}{3} \\mathrm{~N}$",
+        "$\\frac{h}{l}=\\frac{3 \\sqrt{3}}{16}, f=\\frac{8 \\sqrt{3}}{3} \\mathrm{~N}$",
+        "$\\frac{h}{l}=\\frac{3 \\sqrt{3}}{16}, f=\\frac{16 \\sqrt{3}}{3} \\mathrm{~N}$"
+      ],
+      "correct_index": 3,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 2,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-20",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "One mole of an ideal gas at $300 \\mathrm{~K}$ in thermal contact with surroundings expands isothermally from $1.0 \\mathrm{~L}$ to $2.0 \\mathrm{~L}$ against a constant pressure of $3.0 \\mathrm{~atm}$. In this process, the change in entropy of surroundings $\\left(\\Delta S_{\\text {surr }}\\right)$ in $\\mathrm{J} \\mathrm{K}^{-1}$ is (1 $\\mathrm{L} \\operatorname{atm}=101.3 \\mathrm{~J})$",
+      "options": [
+        "5.763",
+        "1.013",
+        "-1.013",
+        "-5.763"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 20,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-21",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "The increasing order of atomic radii of the following Group 13 elements is",
+      "options": [
+        "$\\mathrm{Al}<\\mathrm{Ga}<\\mathrm{In}<\\mathrm{Tl}$",
+        "$\\mathrm{Ga}<\\mathrm{Al}<\\mathrm{In}<\\mathrm{Tl}$",
+        "$\\mathrm{Al}<\\mathrm{In}<\\mathrm{Ga}<\\mathrm{Tl}$",
+        "$\\mathrm{Al}<\\mathrm{Ga}<\\mathrm{Tl}<\\mathrm{In}$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 21,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-22",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "Among $[\\mathrm{Ni(CO)}_{4}]$, $[\\mathrm{NiCl}_{4}]^{2-}$, $[\\mathrm{Co(NH_3)_{4}Cl_2}]\\mathrm{Cl}$, $\\mathrm{Na_3}[\\mathrm{CoF_6}]$, $\\mathrm{Na_2O_2}$ and $\\mathrm{CsO_2}$ number of paramagnetic compounds is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 22,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-23",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "On complete hydrogenation, natural rubber produces",
+      "options": [
+        "ethylene-propylene copolymer",
+        "vulcanised rubber",
+        "polypropylene",
+        "polybutylene"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 23,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-37",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "Let $-\\frac{\\pi}{6}<\\theta<-\\frac{\\pi}{12}$. Suppose $\\alpha_{1}$ and $\\beta_{1}$ are the roots of the equation $x^{2}-2 x \\sec \\theta+1=0$ and $\\alpha_{2}$ and $\\beta_{2}$ are the roots of the equation $x^{2}+2 x \\tan \\theta-1=0$. If $\\alpha_{1}>\\beta_{1}$ and $\\alpha_{2}>\\beta_{2}$, then $\\alpha_{1}+\\beta_{2}$ equals",
+      "options": [
+        "$2(\\sec \\theta-\\tan \\theta)$",
+        "$2 \\sec \\theta$",
+        "$-2 \\tan \\theta$",
+        "0"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 37,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-38",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "A debate club consists of 6 girls and 4 boys. A team of 4 members is to be selected from this club including the selection of a captain (from among these 4 members) for the team. If the team has to include at most one boy, then the number of ways of selecting the team is",
+      "options": [
+        "380",
+        "320",
+        "260",
+        "95"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 38,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-39",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "Let $S=\\left\\{x \\in(-\\pi, \\pi): x \\neq 0, \\pm \\frac{\\pi}{2}\\right\\}$. The sum of all distinct solutions of the equation $\\sqrt{3} \\sec x+\\operatorname{cosec} x+2(\\tan x-\\cot x)=0$ in the set $S$ is equal to",
+      "options": [
+        "$-\\frac{7 \\pi}{9}$",
+        "$-\\frac{2 \\pi}{9}$",
+        "0",
+        "$\\frac{5 \\pi}{9}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 39,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-40",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "A computer producing factory has only two plants $T_{1}$ and $T_{2}$. Plant $T_{1}$ produces $20 \\%$ and plant $T_{2}$ produces $80 \\%$ of the total computers produced. $7 \\%$ of computers produced in the factory turn out to be defective. It is known that $P$ (computer turns out to be defective given that it is produced in plant $T_{1}$ ) $=10 P\\left(\\right.$ computer turns out to be defective given that it is produced in plant $\\left.T_{2}\\right)$, where $P(E)$ denotes the probability of an event $E$. A computer produced in the factory is randomly selected and it does not turn out to be defective. Then the probability that it is produced in plant $T_{2}$ is",
+      "options": [
+        "$\\frac{36}{73}$",
+        "$\\frac{47}{79}$",
+        "$\\frac{78}{93}$",
+        "$\\frac{75}{83}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 40,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-1-41",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2016 Paper 1",
+      "text": "The least value of $\\alpha \\in \\mathbb{R}$ for which $4 \\alpha x^{2}+\\frac{1}{x} \\geq 1$, for all $x>0$, is",
+      "options": [
+        "$\\frac{1}{64}$",
+        "$\\frac{1}{32}$",
+        "$\\frac{1}{27}$",
+        "$\\frac{1}{25}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 1",
+      "source_index": 41,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-2-1",
+      "subject": "Physics",
+      "topic": "JEE Adv 2016 Paper 2",
+      "text": "The electrostatic energy of $Z$ protons uniformly distributed throughout a spherical nucleus of radius $R$ is given by \\[ E=\\frac{3}{5} \\frac{Z(Z-1) e^{2}}{4 \\pi \\varepsilon_{0} R} \\] The measured masses of the neutron, ${ }_{1}^{1} \\mathrm{H},{ }_{7}^{15} \\mathrm{~N}$ and ${ }_{8}^{15} \\mathrm{O}$ are $1.008665 \\mathrm{u}, 1.007825 \\mathrm{u}$, $15.000109 \\mathrm{u}$ and $15.003065 \\mathrm{u}$, respectively. Given that the radii of both the ${ }_{7}^{15} \\mathrm{~N}$ and ${ }_{8}^{15} \\mathrm{O}$ nuclei are same, $1 \\mathrm{u}=931.5 \\mathrm{MeV} / c^{2}$ ( $c$ is the speed of light) and $e^{2} /\\left(4 \\pi \\varepsilon_{0}\\right)=1.44 \\mathrm{MeV} \\mathrm{fm}$. Assuming that the difference between the binding energies of ${ }_{7}^{15} \\mathrm{~N}$ and ${ }_{8}^{15} \\mathrm{O}$ is purely due to the electrostatic energy, the radius of either of the nuclei is $\\left(1 \\mathrm{fm}=10^{-15} \\mathrm{~m}\\right)$",
+      "options": [
+        "$2.85 \\mathrm{fm}$",
+        "$3.03 \\mathrm{fm}$",
+        "$3.42 \\mathrm{fm}$",
+        "$3.80 \\mathrm{fm}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 2",
+      "source_index": 1,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-2-2",
+      "subject": "Physics",
+      "topic": "JEE Adv 2016 Paper 2",
+      "text": "An accident in a nuclear laboratory resulted in deposition of a certain amount of radioactive material of half-life 18 days inside the laboratory. Tests revealed that the radiation was 64 times more than the permissible level required for safe operation of the laboratory. What is the minimum number of days after which the laboratory can be considered safe for use?",
+      "options": [
+        "64",
+        "90",
+        "108",
+        "120"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 2",
+      "source_index": 2,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-2-3",
+      "subject": "Physics",
+      "topic": "JEE Adv 2016 Paper 2",
+      "text": "A gas is enclosed in a cylinder with a movable frictionless piston. Its initial thermodynamic state at pressure $P_{i}=10^{5} \\mathrm{~Pa}$ and volume $V_{i}=10^{-3} \\mathrm{~m}^{3}$ changes to a final state at $P_{f}=(1 / 32) \\times 10^{5} \\mathrm{~Pa}$ and $V_{f}=8 \\times 10^{-3} \\mathrm{~m}^{3}$ in an adiabatic quasi-static process, such that $P^{3} V^{5}=$ constant. Consider another thermodynamic process that brings the system from the same initial state to the same final state in two steps: an isobaric expansion at $P_{i}$ followed by an isochoric (isovolumetric) process at volume $V_{f}$. The amount of heat supplied to the system in the two-step process is approximately",
+      "options": [
+        "$112 \\mathrm{~J}$",
+        "$294 \\mathrm{~J}$",
+        "$588 \\mathrm{~J}$",
+        "$813 \\mathrm{~J}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 2",
+      "source_index": 3,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-2-4",
+      "subject": "Physics",
+      "topic": "JEE Adv 2016 Paper 2",
+      "text": "The ends $\\mathrm{Q}$ and $\\mathrm{R}$ of two thin wires, $\\mathrm{PQ}$ and RS, are soldered (joined) together. Initially each of the wires has a length of $1 \\mathrm{~m}$ at $10^{\\circ} \\mathrm{C}$. Now the end $P$ is maintained at $10^{\\circ} \\mathrm{C}$, while the end $\\mathrm{S}$ is heated and maintained at $400^{\\circ} \\mathrm{C}$. The system is thermally insulated from its surroundings. If the thermal conductivity of wire $\\mathrm{PQ}$ is twice that of the wire $R S$ and the coefficient of linear thermal expansion of $\\mathrm{PQ}$ is $1.2 \\times 10^{-5} \\mathrm{~K}^{-1}$, the change in length of the wire $P Q$ is",
+      "options": [
+        "$0.78 \\mathrm{~mm}$",
+        "$0.90 \\mathrm{~mm}$",
+        "$1.56 \\mathrm{~mm}$",
+        "$2.34 \\mathrm{~mm}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 2",
+      "source_index": 4,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-2-19",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2016 Paper 2",
+      "text": "For the following electrochemical cell at $298 \\mathrm{~K}$, $\\mathrm{Pt}(s) \\mid \\mathrm{H}_{2}(g, 1$ bar $)\\left|\\mathrm{H}^{+}(aq, 1 \\mathrm{M}) \\| \\mathrm{M}^{4+}(aq), \\mathrm{M}^{2+}(aq)\\right| \\operatorname{Pt}(s)$ $E_{\\text {cell }}=0.092 \\mathrm{~V}$ when $\\frac{\\left[\\mathrm{M}^{2+}(aq)\\right]}{\\left[M^{4+}(aq)\\right]}=10^{x}$. Given : $E_{\\mathrm{M}^{4} / \\mathrm{M}^{2+}}^{0}=0.151 \\mathrm{~V} ; 2.303 \\frac{R T}{F}=0.059 \\mathrm{~V}$ The value of $x$ is",
+      "options": [
+        "-2",
+        "-1",
+        "1",
+        "2"
+      ],
+      "correct_index": 3,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 2",
+      "source_index": 19,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-2-22",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2016 Paper 2",
+      "text": "The geometries of the ammonia complexes of $\\mathrm{Ni}^{2+}, \\mathrm{Pt}^{2+}$ and $\\mathrm{Zn}^{2+}$, respectively, are",
+      "options": [
+        "octahedral, square planar and tetrahedral",
+        "square planar, octahedral and tetrahedral",
+        "tetrahedral, square planar and octahedral",
+        "octahedral, tetrahedral and square planar"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 2",
+      "source_index": 22,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-2-37",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2016 Paper 2",
+      "text": "Let $P=\\left[\\begin{array}{ccc}1 & 0 & 0 \\\\ 4 & 1 & 0 \\\\ 16 & 4 & 1\\end{array}\\right]$ and $I$ be the identity matrix of order 3. If $Q=\\left[q_{i j}\\right]$ is a matrix such that $P^{50}-Q=I$, then $\\frac{q_{31}+q_{32}}{q_{21}}$ equals",
+      "options": [
+        "52",
+        "103",
+        "201",
+        "205"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 2",
+      "source_index": 37,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-2-40",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2016 Paper 2",
+      "text": "The value of $\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{x^{2} \\cos x}{1+e^{x}} d x$ is equal to",
+      "options": [
+        "$\\frac{\\pi^{2}}{4}-2$",
+        "$\\frac{\\pi^{2}}{4}+2$",
+        "$\\pi^{2}-e^{\\frac{\\pi}{2}}$",
+        "$\\pi^{2}+e^{\\frac{\\pi}{2}}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 2",
+      "source_index": 40,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2016-Paper-2-42",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2016 Paper 2",
+      "text": "Let $P$ be the image of the point $(3,1,7)$ with respect to the plane $x-y+z=3$. Then the equation of the plane passing through $P$ and containing the straight line $\\frac{x}{1}=\\frac{y}{2}=\\frac{z}{1}$ is",
+      "options": [
+        "$x+y-3 z=0$",
+        "$3 x+z=0$",
+        "$x-4 y+7 z=0$",
+        "$2 x-y=0$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2016 Paper 2",
+      "source_index": 42,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2019-Paper-1-1",
+      "subject": "Physics",
+      "topic": "JEE Adv 2019 Paper 1",
+      "text": "Consider a spherical gaseous cloud of mass density $\\rho(r)$ in free space where $r$ is the radial distance from its center. The gaseous cloud is made of particles of equal mass $m$ moving in circular orbits about the common center with the same kinetic energy $K$. The force acting on the particles is their mutual gravitational force. If $\\rho(r)$ is constant in time, the particle number density $n(r)=\\rho(r) / m$ is [ $G$ is universal gravitational constant]",
+      "options": [
+        "$\\frac{K}{2 \\pi r^{2} m^{2} G}$",
+        "$\\frac{K}{\\pi r^{2} m^{2} G}$",
+        "$\\frac{3 K}{\\pi r^{2} m^{2} G}$",
+        "$\\frac{K}{6 \\pi r^{2} m^{2} G}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2019 Paper 1",
+      "source_index": 1,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2019-Paper-1-2",
+      "subject": "Physics",
+      "topic": "JEE Adv 2019 Paper 1",
+      "text": "A thin spherical insulating shell of radius $R$ carries a uniformly distributed charge such that the potential at its surface is $V_{0}$. A hole with a small area $\\alpha 4 \\pi R^{2}(\\alpha \\ll 1)$ is made on the shell without affecting the rest of the shell. Which one of the following statements is correct?",
+      "options": [
+        "The potential at the center of the shell is reduced by $2 \\alpha V_{0}$",
+        "The magnitude of electric field at the center of the shell is reduced by $\\frac{\\alpha V_{0}}{2 R}$",
+        "The ratio of the potential at the center of the shell to that of the point at $\\frac{1}{2} R$ from center towards the hole will be $\\frac{1-\\alpha}{1-2 \\alpha}$",
+        "The magnitude of electric field at a point, located on a line passing through the hole and shell's center, on a distance $2 R$ from the center of the spherical shell will be reduced by $\\frac{\\alpha V_{0}}{2 R}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2019 Paper 1",
+      "source_index": 2,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2019-Paper-1-3",
+      "subject": "Physics",
+      "topic": "JEE Adv 2019 Paper 1",
+      "text": "A current carrying wire heats a metal rod. The wire provides a constant power $(P)$ to the rod. The metal rod is enclosed in an insulated container. It is observed that the temperature $(T)$ in the metal rod changes with time $(t)$ as \\[ T(t)=T_{0}\\left(1+\\beta t^{\\frac{1}{4}}\\right) \\] where $\\beta$ is a constant with appropriate dimension while $T_{0}$ is a constant with dimension of temperature. The heat capacity of the metal is,",
+      "options": [
+        "$\\frac{4 P\\left(T(t)-T_{0}\\right)^{3}}{\\beta^{4} T_{0}^{4}}$",
+        "$\\frac{4 P\\left(T(t)-T_{0}\\right)^{4}}{\\beta^{4} T_{0}^{5}}$",
+        "$\\frac{4 P\\left(T(t)-T_{0}\\right)^{2}}{\\beta^{4} T_{0}^{3}}$",
+        "$\\frac{4 P\\left(T(t)-T_{0}\\right)}{\\beta^{4} T_{0}^{2}}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2019 Paper 1",
+      "source_index": 3,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2019-Paper-1-4",
+      "subject": "Physics",
+      "topic": "JEE Adv 2019 Paper 1",
+      "text": "In a radioactive sample, ${ }_{19}^{40} \\mathrm{~K}$ nuclei either decay into stable ${ }_{20}^{40} \\mathrm{Ca}$ nuclei with decay constant $4.5 \\times 10^{-10}$ per year or into stable ${ }_{18}^{40} \\mathrm{Ar}$ nuclei with decay constant $0.5 \\times 10^{-10}$ per year. Given that in this sample all the stable ${ }_{20}^{40} \\mathrm{Ca}$ and ${ }_{18}^{40} \\mathrm{Ar}$ nuclei are produced by the ${ }_{19}^{40} \\mathrm{~K}$ nuclei only. In time $t \\times 10^{9}$ years, if the ratio of the sum of stable ${ }_{20}^{40} \\mathrm{Ca}$ and ${ }_{18}^{40} \\mathrm{Ar}$ nuclei to the radioactive ${ }_{19}^{40} \\mathrm{~K}$ nuclei is 99 , the value of $t$ will be, [Given: $\\ln 10=2.3]$",
+      "options": [
+        "1.15",
+        "9.2",
+        "2.3",
+        "4.6"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2019 Paper 1",
+      "source_index": 4,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2019-Paper-1-19",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2019 Paper 1",
+      "text": "The green colour produced in the borax bead test of a chromium(III) salt is due to",
+      "options": [
+        "$\\mathrm{Cr}\\left(\\mathrm{BO}_{2}\\right)_{3}$",
+        "$\\mathrm{Cr}_{2}\\left(\\mathrm{~B}_{4} \\mathrm{O}_{7}\\right)_{3}$",
+        "$\\mathrm{Cr}_{2} \\mathrm{O}_{3}$",
+        "$\\mathrm{CrB}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2019 Paper 1",
+      "source_index": 19,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2019-Paper-1-20",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2019 Paper 1",
+      "text": "Calamine, malachite, magnetite and cryolite, respectively, are",
+      "options": [
+        "$\\mathrm{ZnSO}_{4}, \\mathrm{CuCO}_{3}, \\mathrm{Fe}_{2} \\mathrm{O}_{3}, \\mathrm{AlF}_{3}$",
+        "$\\mathrm{ZnSO}_{4}, \\mathrm{Cu}(\\mathrm{OH})_{2}, \\mathrm{Fe}_{3} \\mathrm{O}_{4}, \\mathrm{Na}_{3} \\mathrm{AlF}_{6}$",
+        "$\\mathrm{ZnCO}_{3}, \\mathrm{CuCO}_{3} \\cdot \\mathrm{Cu}(\\mathrm{OH})_{2}, \\mathrm{Fe}_{3} \\mathrm{O}_{4}, \\mathrm{Na}_{3} \\mathrm{AlF}_{6}$",
+        "$\\mathrm{ZnCO}_{3}, \\mathrm{CuCO}_{3}, \\mathrm{Fe}_{2} \\mathrm{O}_{3}, \\mathrm{Na}_{3} \\mathrm{AlF}_{6}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2019 Paper 1",
+      "source_index": 20,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2019-Paper-1-37",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2019 Paper 1",
+      "text": "Let $S$ be the set of all complex numbers $Z$ satisfying $|z-2+i| \\geq \\sqrt{5}$. If the complex number $Z_{0}$ is such that $\\frac{1}{\\left|Z_{0}-1\\right|}$ is the maximum of the set $\\left\\{\\frac{1}{|z-1|}: z \\in S\\right\\}$, then the principal argument of $\\frac{4-z_{0}-\\overline{z_{0}}}{Z_{0}-\\overline{z_{0}}+2 i}$ is",
+      "options": [
+        "$-\\frac{\\pi}{2}$",
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{\\pi}{2}$",
+        "$\\frac{3 \\pi}{4}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2019 Paper 1",
+      "source_index": 37,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2019-Paper-1-38",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2019 Paper 1",
+      "text": "Let \\[ M=\\left[\\begin{array}{cc} \\sin ^{4} \\theta & -1-\\sin ^{2} \\theta \\\\ 1+\\cos ^{2} \\theta & \\cos ^{4} \\theta \\end{array}\\right]=\\alpha I+\\beta M^{-1} \\] where $\\alpha=\\alpha(\\theta)$ and $\\beta=\\beta(\\theta)$ are real numbers, and $I$ is the $2 \\times 2$ identity matrix. If $\\alpha^{*}$ is the minimum of the set $\\{\\alpha(\\theta): \\theta \\in[0,2 \\pi)\\}$ and $\\beta^{*}$ is the minimum of the set $\\{\\beta(\\theta): \\theta \\in[0,2 \\pi)\\}$ then the value of $\\alpha^{*}+\\beta^{*}$ is",
+      "options": [
+        "$-\\frac{37}{16}$",
+        "$-\\frac{31}{16}$",
+        "$-\\frac{29}{16}$",
+        "$-\\frac{17}{16}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2019 Paper 1",
+      "source_index": 38,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2019-Paper-1-39",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2019 Paper 1",
+      "text": "A line $y=m x+1$ intersects the circle $(x-3)^{2}+(y+2)^{2}=25$ at the points $P$ and $Q$. If the midpoint of the line segment $P Q$ has $x$-coordinate $-\\frac{3}{5}$, then which one of the following options is correct?",
+      "options": [
+        "$-3 \\leq m<-1$",
+        "$2 \\leq m<4$",
+        "$4 \\leq m<6$",
+        "$6 \\leq m<8$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2019 Paper 1",
+      "source_index": 39,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2019-Paper-1-40",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2019 Paper 1",
+      "text": "The area of the region $\\left\\{(x, y): x y \\leq 8,1 \\leq y \\leq x^{2}\\right\\}$ is",
+      "options": [
+        "$16 \\log _{e} 2-\\frac{14}{3}$",
+        "$8 \\log _{e} 2-\\frac{14}{3}$",
+        "$16 \\log _{e} 2-6$",
+        "$8 \\log _{e} 2-\\frac{7}{3}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2019 Paper 1",
+      "source_index": 40,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2020-Paper-1-20",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2020 Paper 1",
+      "text": "Which of the following liberates $\\mathrm{O}_{2}$ upon hydrolysis?",
+      "options": [
+        "$\\mathrm{Pb}_{3} \\mathrm{O}_{4}$",
+        "$\\mathrm{KO}_{2}$",
+        "$\\mathrm{Na}_{2} \\mathrm{O}_{2}$",
+        "$\\mathrm{Li}_{2} \\mathrm{O}_{2}$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2020 Paper 1",
+      "source_index": 20,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2020-Paper-1-21",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2020 Paper 1",
+      "text": "A colorless aqueous solution contains nitrates of two metals, $\\mathbf{X}$ and $\\mathbf{Y}$. When it was added to an aqueous solution of $\\mathrm{NaCl}$, a white precipitate was formed. This precipitate was found to be partly soluble in hot water to give a residue $\\mathbf{P}$ and a solution $\\mathbf{Q}$. The residue $\\mathbf{P}$ was soluble in aq. $\\mathrm{NH}_{3}$ and also in excess sodium thiosulfate. The hot solution $\\mathbf{Q}$ gave a yellow precipitate with KI. The metals $\\mathbf{X}$ and $\\mathbf{Y}$, respectively, are",
+      "options": [
+        "Ag and $\\mathrm{Pb}$",
+        "Ag and Cd",
+        "$\\mathrm{Cd}$ and $\\mathrm{Pb}$",
+        "Cd and Zn"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2020 Paper 1",
+      "source_index": 21,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2020-Paper-1-38",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2020 Paper 1",
+      "text": "If the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is defined by $f(x)=|x|(x-\\sin x)$, then which of the following statements is TRUE?",
+      "options": [
+        "$f$ is one-one, but NOT onto",
+        "$f$ is onto, but NOT one-one",
+        "$f$ is BOTH one-one and onto",
+        "$f$ is NEITHER one-one NOR onto"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2020 Paper 1",
+      "source_index": 38,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2020-Paper-1-39",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2020 Paper 1",
+      "text": "Let the functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined by \\[ f(x)=e^{x-1}-e^{-|x-1|} \\quad \\text { and } \\quad g(x)=\\frac{1}{2}\\left(e^{x-1}+e^{1-x}\\right) \\] Then the area of the region in the first quadrant bounded by the curves $y=f(x), y=g(x)$ and $x=0$ is",
+      "options": [
+        "$(2-\\sqrt{3})+\\frac{1}{2}\\left(e-e^{-1}\\right)$",
+        "$(2+\\sqrt{3})+\\frac{1}{2}\\left(e-e^{-1}\\right)$",
+        "$(2-\\sqrt{3})+\\frac{1}{2}\\left(e+e^{-1}\\right)$",
+        "$(2+\\sqrt{3})+\\frac{1}{2}\\left(e+e^{-1}\\right)$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2020 Paper 1",
+      "source_index": 39,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2020-Paper-1-40",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2020 Paper 1",
+      "text": "Let $a, b$ and $\\lambda$ be positive real numbers. Suppose $P$ is an end point of the latus rectum of the parabola $y^{2}=4 \\lambda x$, and suppose the ellipse $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ passes through the point $P$. If the tangents to the parabola and the ellipse at the point $P$ are perpendicular to each other, then the eccentricity of the ellipse is",
+      "options": [
+        "$\\frac{1}{\\sqrt{2}}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{5}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2020 Paper 1",
+      "source_index": 40,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2020-Paper-1-41",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2020 Paper 1",
+      "text": "Let $C_{1}$ and $C_{2}$ be two biased coins such that the probabilities of getting head in a single toss are $\\frac{2}{3}$ and $\\frac{1}{3}$, respectively. Suppose $\\alpha$ is the number of heads that appear when $C_{1}$ is tossed twice, independently, and suppose $\\beta$ is the number of heads that appear when $C_{2}$ is tossed twice, independently. Then the probability that the roots of the quadratic polynomial $x^{2}-\\alpha x+\\beta$ are real and equal, is",
+      "options": [
+        "$\\frac{40}{81}$",
+        "$\\frac{20}{81}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2020 Paper 1",
+      "source_index": 41,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2020-Paper-1-42",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2020 Paper 1",
+      "text": "Consider all rectangles lying in the region \\[ \\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R}: 0 \\leq x \\leq \\frac{\\pi}{2} \\text { and } 0 \\leq y \\leq 2 \\sin (2 x)\\right\\} \\] and having one side on the $x$-axis. The area of the rectangle which has the maximum perimeter among all such rectangles, is",
+      "options": [
+        "$\\frac{3 \\pi}{2}$",
+        "$\\pi$",
+        "$\\frac{\\pi}{2 \\sqrt{3}}$",
+        "$\\frac{\\pi \\sqrt{3}}{2}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2020 Paper 1",
+      "source_index": 42,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-1-4",
+      "subject": "Physics",
+      "topic": "JEE Adv 2021 Paper 1",
+      "text": "A heavy nucleus $Q$ of half-life 20 minutes undergoes alpha-decay with probability of $60 \\%$ and beta-decay with probability of $40 \\%$. Initially, the number of $Q$ nuclei is 1000. The number of alpha-decays of $Q$ in the first one hour is",
+      "options": [
+        "50",
+        "75",
+        "350",
+        "525"
+      ],
+      "correct_index": 3,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 1",
+      "source_index": 4,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-1-22",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2021 Paper 1",
+      "text": "The calculated spin only magnetic moments of $\\left[\\mathrm{Cr}\\left(\\mathrm{NH}_{3}\\right)_{6}\\right]^{3+}$ and $\\left[\\mathrm{CuF}_{6}\\right]^{3-}$ in $\\mathrm{BM}$, respectively, are (Atomic numbers of $\\mathrm{Cr}$ and $\\mathrm{Cu}$ are 24 and 29, respectively)",
+      "options": [
+        "3.87 and 2.84",
+        "4.90 and 1.73",
+        "3.87 and 1.73",
+        "4.90 and 2.84"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 1",
+      "source_index": 22,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-1-37",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2021 Paper 1",
+      "text": "Consider a triangle $\\Delta$ whose two sides lie on the $x$-axis and the line $x+y+1=0$. If the orthocenter of $\\Delta$ is $(1,1)$, then the equation of the circle passing through the vertices of the triangle $\\Delta$ is",
+      "options": [
+        "$x^{2}+y^{2}-3 x+y=0$",
+        "$x^{2}+y^{2}+x+3 y=0$",
+        "$x^{2}+y^{2}+2 y-1=0$",
+        "$x^{2}+y^{2}+x+y=0$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 1",
+      "source_index": 37,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-1-38",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2021 Paper 1",
+      "text": "The area of the region \\[ \\left\\{(x, y): 0 \\leq x \\leq \\frac{9}{4}, \\quad 0 \\leq y \\leq 1, \\quad x \\geq 3 y, \\quad x+y \\geq 2\\right\\} \\] is",
+      "options": [
+        "$\\frac{11}{32}$",
+        "$\\frac{35}{96}$",
+        "$\\frac{37}{96}$",
+        "$\\frac{13}{32}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 1",
+      "source_index": 38,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-1-39",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2021 Paper 1",
+      "text": "Consider three sets $E_{1}=\\{1,2,3\\}, F_{1}=\\{1,3,4\\}$ and $G_{1}=\\{2,3,4,5\\}$. Two elements are chosen at random, without replacement, from the set $E_{1}$, and let $S_{1}$ denote the set of these chosen elements. Let $E_{2}=E_{1}-S_{1}$ and $F_{2}=F_{1} \\cup S_{1}$. Now two elements are chosen at random, without replacement, from the set $F_{2}$ and let $S_{2}$ denote the set of these chosen elements. Let $G_{2}=G_{1} \\cup S_{2}$. Finally, two elements are chosen at random, without replacement, from the set $G_{2}$ and let $S_{3}$ denote the set of these chosen elements. Let $E_{3}=E_{2} \\cup S_{3}$. Given that $E_{1}=E_{3}$, let $p$ be the conditional probability of the event $S_{1}=\\{1,2\\}$. Then the value of $p$ is",
+      "options": [
+        "$\\frac{1}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{5}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 1",
+      "source_index": 39,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-1-40",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2021 Paper 1",
+      "text": "Let $\\theta_{1}, \\theta_{2}, \\ldots, \\theta_{10}$ be positive valued angles (in radian) such that $\\theta_{1}+\\theta_{2}+\\cdots+\\theta_{10}=2 \\pi$. Define the complex numbers $z_{1}=e^{i \\theta_{1}}, z_{k}=z_{k-1} e^{i \\theta_{k}}$ for $k=2,3, \\ldots, 10$, where $i=\\sqrt{-1}$. Consider the statements $P$ and $Q$ given below: \\[ \\begin{aligned} & P:\\left|z_{2}-z_{1}\\right|+\\left|z_{3}-z_{2}\\right|+\\cdots+\\left|z_{10}-z_{9}\\right|+\\left|z_{1}-z_{10}\\right| \\leq 2 \\pi \\\\ & Q:\\left|z_{2}^{2}-z_{1}^{2}\\right|+\\left|z_{3}^{2}-z_{2}^{2}\\right|+\\cdots+\\left|z_{10}^{2}-z_{9}^{2}\\right|+\\left|z_{1}^{2}-z_{10}^{2}\\right| \\leq 4 \\pi \\end{aligned} \\] Then,",
+      "options": [
+        "$P$ is TRUE and $Q$ is FALSE",
+        "$Q$ is TRUE and $P$ is FALSE",
+        "both $P$ and $Q$ are TRUE",
+        "both $P$ and $Q$ are FALSE"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 1",
+      "source_index": 40,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-2-31",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2021 Paper 2",
+      "text": "Correct match of the $\\mathbf{C}-\\mathbf{H}$ bonds (shown in bold) in Column $\\mathbf{J}$ with their BDE in Column $\\mathbf{K}$ is \\begin{center} \\begin{tabular}{|c|c|} \\hline $\\begin{array}{l}\\text { Column J } \\\\ \\text { Molecule }\\end{array}$ & $\\begin{array}{c}\\text { Column K } \\\\ \\text { BDE }\\left(\\text { kcal mol }^{-1}\\right)\\end{array}$ \\\\ \\hline (P) $\\mathbf{H}-\\mathrm{CH}\\left(\\mathrm{CH}_{3}\\right)_{2}$ & (i) 132 \\\\ \\hline (Q) $\\mathbf{H}-\\mathrm{CH}_{2} \\mathrm{Ph}$ & (ii) 110 \\\\ \\hline (R) $\\mathbf{H}-\\mathrm{CH}=\\mathrm{CH}_{2}$ & (iii) 95 \\\\ \\hline (S) $\\mathrm{H}-\\mathrm{C} \\equiv \\mathrm{CH}$ & (iv) 88 \\\\ \\hline \\end{tabular} \\end{center}",
+      "options": [
+        "$P$ - iii, $Q$ - iv, R - ii, S - i",
+        "$P-i, Q-i i, R-$ iii, S - iv",
+        "P - iii, Q - ii, R - i, S - iv",
+        "$P-i i, Q-i, R-i v, S-i i i$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 2",
+      "source_index": 31,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-2-33",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2021 Paper 2",
+      "text": "The reaction of $\\mathrm{K}_3\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]$ with freshly prepared $\\mathrm{FeSO}_4$ solution produces a dark blue precipitate called Turnbull's blue. Reaction of $\\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]$ with the $\\mathrm{FeSO}_4$ solution in complete absence of air produces a white precipitate $\\mathbf{X}$, which turns blue in air. Mixing the $\\mathrm{FeSO}_4$ solution with $\\mathrm{NaNO}_3$, followed by a slow addition of concentrated $\\mathrm{H}_2 \\mathrm{SO}_4$ through the side of the test tube produces a brown ring. Precipitate $\\mathbf{X}$ is",
+      "options": [
+        "$\\mathrm{Fe}_{4}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]_{3}$",
+        "$\\mathrm{Fe}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]$",
+        "$\\mathrm{K}_{2} \\mathrm{Fe}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]$",
+        "$\\mathrm{KFe}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 2",
+      "source_index": 33,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-2-34",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2021 Paper 2",
+      "text": "The reaction of $\\mathrm{K}_3\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]$ with freshly prepared $\\mathrm{FeSO}_4$ solution produces a dark blue precipitate called Turnbull's blue. Reaction of $\\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]$ with the $\\mathrm{FeSO}_4$ solution in complete absence of air produces a white precipitate $\\mathbf{X}$, which turns blue in air. Mixing the $\\mathrm{FeSO}_4$ solution with $\\mathrm{NaNO}_3$, followed by a slow addition of concentrated $\\mathrm{H}_2 \\mathrm{SO}_4$ through the side of the test tube produces a brown ring. Among the following, the brown ring is due to the formation of",
+      "options": [
+        "$\\left[\\mathrm{Fe}(\\mathrm{NO})_{2}\\left(\\mathrm{SO}_{4}\\right)_{2}\\right]^{2-}$",
+        "$\\left[\\mathrm{Fe}(\\mathrm{NO})_{2}\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{4}\\right]^{3+}$",
+        "$\\left[\\mathrm{Fe}(\\mathrm{NO})_{4}\\left(\\mathrm{SO}_{4}\\right)_{2}\\right]$",
+        "$\\left[\\mathrm{Fe}(\\mathrm{NO})\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{5}\\right]^{2+}$"
+      ],
+      "correct_index": 3,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 2",
+      "source_index": 34,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-2-49",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2021 Paper 2",
+      "text": "Let \\[\\mathrm{M}=\\left\\{(\\mathrm{x}, \\mathrm{y}) \\in \\mathbb{R} \\times \\mathbb{R}: \\mathrm{x}^2+\\mathrm{y}^2 \\leq \\mathrm{r}^2\\right\\}\\] where $\\mathrm{r}>0$. Consider the geometric progression $a_n=\\frac{1}{2^{n-1}}, n=1,2,3, \\ldots$. Let $S_0=0$ and, for $n \\geq 1$, let $S_n$ denote the sum of the first $n$ terms of this progression. For $n \\geq 1$, let $C_n$ denote the circle with center $\\left(S_{n-1}, 0\\right)$ and radius $a_n$, and $D_n$ denote the circle with center $\\left(S_{n-1}, S_{n-1}\\right)$ and radius $a_n$. Consider $M$ with $r=\\frac{1025}{513}$. Let $k$ be the number of all those circles $C_{n}$ that are inside $M$. Let $l$ be the maximum possible number of circles among these $k$ circles such that no two circles intersect. Then",
+      "options": [
+        "$k+2 l=22$",
+        "$2 k+l=26$",
+        "$2 k+3 l=34$",
+        "$3 k+2 l=40$"
+      ],
+      "correct_index": 3,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 2",
+      "source_index": 49,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-2-50",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2021 Paper 2",
+      "text": "Let \\[\\mathrm{M}=\\left\\{(\\mathrm{x}, \\mathrm{y}) \\in \\mathbb{R} \\times \\mathbb{R}: \\mathrm{x}^2+\\mathrm{y}^2 \\leq \\mathrm{r}^2\\right\\}\\] where $\\mathrm{r}>0$. Consider the geometric progression $a_n=\\frac{1}{2^{n-1}}, n=1,2,3, \\ldots$. Let $S_0=0$ and, for $n \\geq 1$, let $S_n$ denote the sum of the first $n$ terms of this progression. For $n \\geq 1$, let $C_n$ denote the circle with center $\\left(S_{n-1}, 0\\right)$ and radius $a_n$, and $D_n$ denote the circle with center $\\left(S_{n-1}, S_{n-1}\\right)$ and radius $a_n$. Consider $M$ with $r=\\frac{\\left(2^{199}-1\\right) \\sqrt{2}}{2^{198}}$. The number of all those circles $D_{n}$ that are inside $M$ is",
+      "options": [
+        "198",
+        "199",
+        "200",
+        "201"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 2",
+      "source_index": 50,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2021-Paper-2-51",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2021 Paper 2",
+      "text": "Let $\\psi_1:[0, \\infty) \\rightarrow \\mathbb{R}, \\psi_2:[0, \\infty) \\rightarrow \\mathbb{R}, f:[0, \\infty) \\rightarrow \\mathbb{R}$ and $g:[0, \\infty) \\rightarrow \\mathbb{R}$ be functions such that \\[\\begin{aligned} & f(0)=\\mathrm{g}(0)=0, \\\\ & \\psi_1(\\mathrm{x})=\\mathrm{e}^{-\\mathrm{x}}+\\mathrm{x}, \\quad \\mathrm{x} \\geq 0, \\\\ & \\psi_2(\\mathrm{x})=\\mathrm{x}^2-2 \\mathrm{x}-2 \\mathrm{e}^{-\\mathrm{x}}+2, \\mathrm{x} \\geq 0, \\\\ & f(\\mathrm{x})=\\int_{-\\mathrm{x}}^{\\mathrm{x}}\\left(|\\mathrm{t}|-\\mathrm{t}^2\\right) \\mathrm{e}^{-\\mathrm{t}^2} \\mathrm{dt}, \\mathrm{x}>0 \\end{aligned}\\] and \\[g(x)=\\int_0^{x^2} \\sqrt{t} e^{-t} d t, x>0\\]. Which of the following statements is TRUE?",
+      "options": [
+        "$f(\\sqrt{\\ln 3})+g(\\sqrt{\\ln 3})=\\frac{1}{3}$",
+        "For every $x>1$, there exists an $\\alpha \\in(1, x)$ such that $\\psi_{1}(x)=1+\\alpha x$",
+        "For every $x>0$, there exists a $\\beta \\in(0, x)$ such that $\\psi_{2}(x)=2 x\\left(\\psi_{1}(\\beta)-1\\right)$",
+        "$f$ is an increasing function on the interval $\\left[0, \\frac{3}{2}\\right]$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2021 Paper 2",
+      "source_index": 51,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-1-15",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2022 Paper 1",
+      "text": "Consider the following lists: List-I (I) $\\left\\{x \\in\\left[-\\frac{2 \\pi}{3}, \\frac{2 \\pi}{3}\\right]: \\cos x+\\sin x=1\\right\\}$ (II) $\\left\\{x \\in\\left[-\\frac{5 \\pi}{18}, \\frac{5 \\pi}{18}\\right]: \\sqrt{3} \\tan 3 x=1\\right\\}$ (III) $\\left\\{x \\in\\left[-\\frac{6 \\pi}{5}, \\frac{6 \\pi}{5}\\right]: 2 \\cos (2 x)=\\sqrt{3}\\right\\}$ (IV) $\\left\\{x \\in\\left[-\\frac{7 \\pi}{4}, \\frac{7 \\pi}{4}\\right]: \\sin x-\\cos x=1\\right\\}$ List-II (P) has two elements (Q) has three elements (R) has four elements (S) has five elements (T) has six elements The correct option is:",
+      "options": [
+        "(I) $\\rightarrow$ (P); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (P); (IV) $\\rightarrow$ (S)",
+        "(I) $\\rightarrow$ (P); (II) $\\rightarrow$ (P); (III) $\\rightarrow$ (T); (IV) $\\rightarrow$ (R)",
+        "(I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (P); (III) $\\rightarrow$ (T); (IV) $\\rightarrow$ (S)",
+        "(I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (P); (IV) $\\rightarrow$ (R)"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 1",
+      "source_index": 15,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-1-16",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2022 Paper 1",
+      "text": "Two players, $P_{1}$ and $P_{2}$, play a game against each other. In every round of the game, each player rolls a fair die once, where the six faces of the die have six distinct numbers. Let $x$ and $y$ denote the readings on the die rolled by $P_{1}$ and $P_{2}$, respectively. If $x>y$, then $P_{1}$ scores 5 points and $P_{2}$ scores 0 point. If $x=y$, then each player scores 2 points. If $x<y$, then $P_{1}$ scores 0 point and $P_{2}$ scores 5 points. Let $X_{i}$ and $Y_{i}$ be the total scores of $P_{1}$ and $P_{2}$, respectively, after playing the $i^{\\text {th }}$ round. List-I (I) Probability of $\\left(X_2 \\geq Y_2\\right)$ is (II) Probability of $\\left(X_2>Y_2\\right)$ is (III) Probability of $\\left(X_3=Y_3\\right)$ is (IV) Probability of $\\left(X_3>Y_3\\right)$ is List-II (P) $\\frac{3}{8}$ (Q) $\\frac{11}{16}$ (R) $\\frac{5}{16}$ (S) $\\frac{355}{864}$ (T) $\\frac{77}{432}$ The correct option is:",
+      "options": [
+        "(I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (T); (IV) $\\rightarrow$ (S)",
+        "(I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (T); (IV) $\\rightarrow$ (T)",
+        "(I) $\\rightarrow$ (P); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (S)",
+        "(I) $\\rightarrow$ (P); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (T)"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 1",
+      "source_index": 16,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-1-17",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2022 Paper 1",
+      "text": "Let $p, q, r$ be nonzero real numbers that are, respectively, the $10^{\\text {th }}, 100^{\\text {th }}$ and $1000^{\\text {th }}$ terms of a harmonic progression. Consider the system of linear equations \\[ \\begin{gathered} x+y+z=1 \\\\ 10 x+100 y+1000 z=0 \\\\ q r x+p r y+p q z=0 \\end{gathered} \\] List-I (I) If $\\frac{q}{r}=10$, then the system of linear equations has (II) If $\\frac{p}{r} \\neq 100$, then the system of linear equations has (III) If $\\frac{p}{q} \\neq 10$, then the system of linear equations has (IV) If $\\frac{p}{q}=10$, then the system of linear equations has List-II (P) $x=0, \\quad y=\\frac{10}{9}, z=-\\frac{1}{9}$ as a solution (Q) $x=\\frac{10}{9}, y=-\\frac{1}{9}, z=0$ as a solution (III) If $\\frac{p}{q} \\neq 10$, then the system of linear (R) infinitely many solutions (IV) If $\\frac{p}{q}=10$, then the system of linear (S) no solution (T) at least one solution The correct option is:",
+      "options": [
+        "(I) $\\rightarrow$ (T); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (T)",
+        "(I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (R)",
+        "(I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (P); (IV) $\\rightarrow$ (R)",
+        "(I) $\\rightarrow$ (T); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (P); (IV) $\\rightarrow$ (T)"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 1",
+      "source_index": 17,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-1-18",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2022 Paper 1",
+      "text": "Consider the ellipse \\[ \\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1 \\] Let $H(\\alpha, 0), 0<\\alpha<2$, be a point. A straight line drawn through $H$ parallel to the $y$-axis crosses the ellipse and its auxiliary circle at points $E$ and $F$ respectively, in the first quadrant. The tangent to the ellipse at the point $E$ intersects the positive $x$-axis at a point $G$. Suppose the straight line joining $F$ and the origin makes an angle $\\phi$ with the positive $x$-axis. List-I (I) If $\\phi=\\frac{\\pi}{4}$, then the area of the triangle $F G H$ is (II) If $\\phi=\\frac{\\pi}{3}$, then the area of the triangle $F G H$ is (III) If $\\phi=\\frac{\\pi}{6}$, then the area of the triangle $F G H$ is (IV) If $\\phi=\\frac{\\pi}{12}$, then the area of the triangle $F G H$ is List-II (P) $\\frac{(\\sqrt{3}-1)^4}{8}$ (Q) 1 (R) $\\frac{3}{4}$ (S) $\\frac{1}{2 \\sqrt{3}}$ (T) $\\frac{3 \\sqrt{3}}{2}$ The correct option is:",
+      "options": [
+        "(I) $\\rightarrow$ (R); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (P)",
+        "$\\quad$ (I) $\\rightarrow$ (R); (II) $\\rightarrow$ (T); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (P)",
+        "$\\quad$ (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (T); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (P)",
+        "$\\quad$ (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (P)"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 1",
+      "source_index": 18,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-1-35",
+      "subject": "Physics",
+      "topic": "JEE Adv 2022 Paper 1",
+      "text": "List I describes thermodynamic processes in four different systems. List II gives the magnitudes (either exactly or as a close approximation) of possible changes in the internal energy of the system due to the process. List-I (I) $10^{-3} \\mathrm{~kg}$ of water at $100^{\\circ} \\mathrm{C}$ is converted to steam at the same temperature, at a pressure of $10^5 \\mathrm{~Pa}$. The volume of the system changes from $10^{-6} \\mathrm{~m}^3$ to $10^{-3} \\mathrm{~m}^3$ in the process. Latent heat of water $=2250 \\mathrm{~kJ} / \\mathrm{kg}$. (II) 0.2 moles of a rigid diatomic ideal gas with volume $V$ at temperature $500 \\mathrm{~K}$ undergoes an isobaric expansion to volume $3 \\mathrm{~V}$. Assume $R=8.0 \\mathrm{~J} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1}$. (III) One mole of a monatomic ideal gas is compressed adiabatically from volume $V=\\frac{1}{3} m^3$ and pressure $2 \\mathrm{kPa}$ to volume $\\frac{V}{8}$. (IV) Three moles of a diatomic ideal gas whose molecules can vibrate, is given $9 \\mathrm{~kJ}$ of heat and undergoes isobaric expansion. List-II (P) $2 \\mathrm{~kJ}$ (Q) $7 \\mathrm{~kJ}$ (R) $4 \\mathrm{~kJ}$ (S) $5 \\mathrm{~kJ}$ (T) $3 \\mathrm{~kJ}$ Which one of the following options is correct?\\",
+      "options": [
+        "$\\mathrm{I} \\rightarrow \\mathrm{T}$, II $\\rightarrow$ R, III $\\rightarrow \\mathrm{S}$, IV $\\rightarrow$ Q,",
+        "I $\\rightarrow \\mathrm{S}$, II $\\rightarrow$ P, III $\\rightarrow \\mathrm{T}$, IV $\\rightarrow$ P,",
+        "I $\\rightarrow$ P, II $\\rightarrow$ R, III $\\rightarrow$ T, IV $\\rightarrow$ Q.",
+        "I $\\rightarrow$ Q, II $\\rightarrow$ R, III $\\rightarrow \\mathrm{S}$, IV $\\rightarrow \\mathrm{T}$,"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 1",
+      "source_index": 35,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-1-52",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2022 Paper 1",
+      "text": "LIST-I contains compounds and LIST-II contains reactions LIST-I (I) $\\mathrm{H}_2 \\mathrm{O}_2$ (II) $\\mathrm{Mg}(\\mathrm{OH})_2$ (III) $\\mathrm{BaCl}_2$ (IV) $\\mathrm{CaCO}_3$ LIST-II (P) $\\mathrm{Mg}\\left(\\mathrm{HCO}_{3}\\right)_{2}+\\mathrm{Ca}(\\mathrm{OH})_{2} \\rightarrow$ (Q) $\\mathrm{BaO}_{2}+\\mathrm{H}_{2} \\mathrm{SO}_{4} \\rightarrow$ (R) $\\mathrm{Ca}(\\mathrm{OH})_{2}+\\mathrm{MgCl}_{2} \\rightarrow$ (S) $\\mathrm{BaO}_{2}+\\mathrm{HCl} \\rightarrow$ (T) $\\mathrm{Ca}\\left(\\mathrm{HCO}_{3}\\right)_{2}+\\mathrm{Ca}(\\mathrm{OH})_{2} \\rightarrow$ Match each compound in LIST-I with its formation reaction(s) in LIST-II, and choose the correct option\\",
+      "options": [
+        "I $\\rightarrow$ Q; II $\\rightarrow$ P; III $\\rightarrow \\mathrm{S}$; IV $\\rightarrow$ R",
+        "I $\\rightarrow$ T; II $\\rightarrow$ P; III $\\rightarrow$ Q; IV $\\rightarrow \\mathrm{R}$",
+        "I $\\rightarrow$ T; II $\\rightarrow$ R; III $\\rightarrow$ Q; IV $\\rightarrow$ P",
+        "I $\\rightarrow$ Q; II $\\rightarrow$ R; III $\\rightarrow \\mathrm{S}$; IV $\\rightarrow \\mathrm{P}$"
+      ],
+      "correct_index": 3,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 1",
+      "source_index": 52,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-1-53",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2022 Paper 1",
+      "text": "LIST-I contains metal species and LIST-II contains their properties. LIST-I (I) $\\left[\\mathrm{Cr}(\\mathrm{CN})_{6}\\right]^{4-}$ (II) $\\left[\\mathrm{RuCl}_{6}\\right]^{2-}$ (III) $\\left[\\mathrm{Cr}\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{6}\\right]^{2+}$ (IV) $\\left[\\mathrm{Fe}\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{6}\\right]^{2+}$ LIST-II (P) $t_{2 \\mathrm{~g}}$ orbitals contain 4 electrons (Q) $\\mu$ (spin-only $=4.9 \\mathrm{BM}$ (R) low spin complex ion (S) metal ion in $4+$ oxidation state (T) $d^{4}$ species [Given: Atomic number of $\\mathrm{Cr}=24, \\mathrm{Ru}=44, \\mathrm{Fe}=26$ ] Match each metal species in LIST-I with their properties in LIST-II, and choose the correct option",
+      "options": [
+        "I $\\rightarrow$ R, T; II $\\rightarrow$ P, S; III $\\rightarrow$ Q, T; IV $\\rightarrow$ P, Q",
+        "I $\\rightarrow$ R, S; II $\\rightarrow$ P, T; III $\\rightarrow$ P, Q; IV $\\rightarrow$ Q, T",
+        "I $\\rightarrow \\mathrm{P}, \\mathrm{R} ; \\mathrm{II} \\rightarrow \\mathrm{R}, \\mathrm{S}$; III $\\rightarrow \\mathrm{R}, \\mathrm{T}$; IV $\\rightarrow \\mathrm{P}, \\mathrm{T}$",
+        "I $\\rightarrow$ Q, T; II $\\rightarrow \\mathrm{S}, \\mathrm{T}$; III $\\rightarrow \\mathrm{P}, \\mathrm{T}$; IV $\\rightarrow \\mathrm{Q}, \\mathrm{R}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 1",
+      "source_index": 53,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-1-54",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2022 Paper 1",
+      "text": "Match the compounds in LIST-I with the observations in LIST-II, and choose the correct option. LIST-I (I) Aniline (II) $o$-Cresol (III) Cysteine (IV) Caprolactam LIST-II (P) Sodium fusion extract of the compound on boiling with $\\mathrm{FeSO}_{4}$, followed by acidification with conc. $\\mathrm{H}_{2} \\mathrm{SO}_{4}$, gives Prussian blue color. (Q) Sodium fusion extract of the compound on treatment with sodium nitroprusside gives blood red color. (R) Addition of the compound to a saturated solution of $\\mathrm{NaHCO}_{3}$ results in effervescence. (S) The compound reacts with bromine water to give a white precipitate. (T) Treating the compound with neutral $\\mathrm{FeCl}_{3}$ solution produces violet color.",
+      "options": [
+        "$\\mathrm{I} \\rightarrow \\mathrm{P}, \\mathrm{Q}$; II $\\rightarrow \\mathrm{S}$; III $\\rightarrow \\mathrm{Q}$, R; IV $\\rightarrow \\mathrm{P}$",
+        "$\\mathrm{I} \\rightarrow \\mathrm{P}$; II $\\rightarrow \\mathrm{R}, \\mathrm{S}$; III $\\rightarrow \\mathrm{R}$; IV $\\rightarrow \\mathrm{Q}, \\mathrm{S}$",
+        "$\\mathrm{I} \\rightarrow \\mathrm{Q}, \\mathrm{S}$; II $\\rightarrow \\mathrm{P}, \\mathrm{T}$; III $\\rightarrow \\mathrm{P}$; IV $\\rightarrow \\mathrm{S}$",
+        "$\\mathrm{I} \\rightarrow \\mathrm{P}, \\mathrm{S}$; II $\\rightarrow \\mathrm{T}$; III $\\rightarrow \\mathrm{Q}, \\mathrm{R}$; IV $\\rightarrow \\mathrm{P}$"
+      ],
+      "correct_index": 3,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 1",
+      "source_index": 54,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-2-15",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2022 Paper 2",
+      "text": "Consider 4 boxes, where each box contains 3 red balls and 2 blue balls. Assume that all 20 balls are distinct. In how many different ways can 10 balls be chosen from these 4 boxes so that from each box at least one red ball and one blue ball are chosen?",
+      "options": [
+        "21816",
+        "85536",
+        "12096",
+        "156816"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 2",
+      "source_index": 15,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-2-16",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2022 Paper 2",
+      "text": "If $M=\\left(\\begin{array}{rr}\\frac{5}{2} & \\frac{3}{2} \\\\ -\\frac{3}{2} & -\\frac{1}{2}\\end{array}\\right)$, then which of the following matrices is equal to $M^{2022}$ ?",
+      "options": [
+        "$\\left(\\begin{array}{rr}3034 & 3033 \\\\ -3033 & -3032\\end{array}\\right)$",
+        "$\\left(\\begin{array}{ll}3034 & -3033 \\\\ 3033 & -3032\\end{array}\\right)$",
+        "$\\left(\\begin{array}{rr}3033 & 3032 \\\\ -3032 & -3031\\end{array}\\right)$",
+        "$\\left(\\begin{array}{rr}3032 & 3031 \\\\ -3031 & -3030\\end{array}\\right)$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 2",
+      "source_index": 16,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-2-17",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2022 Paper 2",
+      "text": "Suppose that Box-I contains 8 red, 3 blue and 5 green balls, Box-II contains 24 red, 9 blue and 15 green balls, Box-III contains 1 blue, 12 green and 3 yellow balls, Box-IV contains 10 green, 16 orange and 6 white balls. A ball is chosen randomly from Box-I; call this ball $b$. If $b$ is red then a ball is chosen randomly from Box-II, if $b$ is blue then a ball is chosen randomly from Box-III, and if $b$ is green then a ball is chosen randomly from Box-IV. The conditional probability of the event 'one of the chosen balls is white' given that the event 'at least one of the chosen balls is green' has happened, is equal to",
+      "options": [
+        "$\\frac{15}{256}$",
+        "$\\frac{3}{16}$",
+        "$\\frac{5}{52}$",
+        "$\\frac{1}{8}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 2",
+      "source_index": 17,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-2-18",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2022 Paper 2",
+      "text": "For positive integer $n$, define \\[ f(n)=n+\\frac{16+5 n-3 n^{2}}{4 n+3 n^{2}}+\\frac{32+n-3 n^{2}}{8 n+3 n^{2}}+\\frac{48-3 n-3 n^{2}}{12 n+3 n^{2}}+\\cdots+\\frac{25 n-7 n^{2}}{7 n^{2}} \\] Then, the value of $\\lim _{n \\rightarrow \\infty} f(n)$ is equal to",
+      "options": [
+        "$3+\\frac{4}{3} \\log _{e} 7$",
+        "$4-\\frac{3}{4} \\log _{e}\\left(\\frac{7}{3}\\right)$",
+        "$4-\\frac{4}{3} \\log _{e}\\left(\\frac{7}{3}\\right)$",
+        "$3+\\frac{3}{4} \\log _{e} 7$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 2",
+      "source_index": 18,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-2-34",
+      "subject": "Physics",
+      "topic": "JEE Adv 2022 Paper 2",
+      "text": "When light of a given wavelength is incident on a metallic surface, the minimum potential needed to stop the emitted photoelectrons is $6.0 \\mathrm{~V}$. This potential drops to $0.6 \\mathrm{~V}$ if another source with wavelength four times that of the first one and intensity half of the first one is used. What are the wavelength of the first source and the work function of the metal, respectively? [Take $\\frac{h c}{e}=1.24 \\times$ $10^{-6} \\mathrm{~J} \\mathrm{mC}^{-1}$.]",
+      "options": [
+        "$1.72 \\times 10^{-7} \\mathrm{~m}, 1.20 \\mathrm{eV}$",
+        "$1.72 \\times 10^{-7} \\mathrm{~m}, 5.60 \\mathrm{eV}$",
+        "$3.78 \\times 10^{-7} \\mathrm{~m}, 5.60 \\mathrm{eV}$",
+        "$3.78 \\times 10^{-7} \\mathrm{~m}, 1.20 \\mathrm{eV}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 2",
+      "source_index": 34,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-2-35",
+      "subject": "Physics",
+      "topic": "JEE Adv 2022 Paper 2",
+      "text": "Area of the cross-section of a wire is measured using a screw gauge. The pitch of the main scale is $0.5 \\mathrm{~mm}$. The circular scale has 100 divisions and for one full rotation of the circular scale, the main scale shifts by two divisions. The measured readings are listed below. \\begin{center} \\begin{tabular}{|l|l|l|} \\hline Measurement condition & Main scale reading & Circular scale reading \\\\ \\hline $\\begin{array}{l}\\text { Two arms of gauge touching } \\\\ \\text { each other without wire }\\end{array}$ & 0 division & 4 divisions \\\\ \\hline Attempt-1: With wire & 4 divisions & 20 divisions \\\\ \\hline Attempt-2: With wire & 4 divisions & 16 divisions \\\\ \\hline \\end{tabular} \\end{center} What are the diameter and cross-sectional area of the wire measured using the screw gauge?",
+      "options": [
+        "$2.22 \\pm 0.02 \\mathrm{~mm}, \\pi(1.23 \\pm 0.02) \\mathrm{mm}^{2}$",
+        "$2.22 \\pm 0.01 \\mathrm{~mm}, \\pi(1.23 \\pm 0.01) \\mathrm{mm}^{2}$",
+        "$2.14 \\pm 0.02 \\mathrm{~mm}, \\pi(1.14 \\pm 0.02) \\mathrm{mm}^{2}$",
+        "$2.14 \\pm 0.01 \\mathrm{~mm}, \\pi(1.14 \\pm 0.01) \\mathrm{mm}^{2}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 2",
+      "source_index": 35,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-2-51",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2022 Paper 2",
+      "text": "Atom $\\mathrm{X}$ occupies the fcc lattice sites as well as alternate tetrahedral voids of the same lattice. The packing efficiency (in \\%) of the resultant solid is closest to",
+      "options": [
+        "25",
+        "35",
+        "55",
+        "75"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 2",
+      "source_index": 51,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-2-52",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2022 Paper 2",
+      "text": "The reaction of $\\mathrm{HClO}_{3}$ with $\\mathrm{HCl}$ gives a paramagnetic gas, which upon reaction with $\\mathrm{O}_{3}$ produces",
+      "options": [
+        "$\\mathrm{Cl}_{2} \\mathrm{O}$",
+        "$\\mathrm{ClO}_{2}$",
+        "$\\mathrm{Cl}_{2} \\mathrm{O}_{6}$",
+        "$\\mathrm{Cl}_{2} \\mathrm{O}_{7}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 2",
+      "source_index": 52,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2022-Paper-2-53",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2022 Paper 2",
+      "text": "The reaction of $\\mathrm{Pb}\\left(\\mathrm{NO}_{3}\\right)_{2}$ and $\\mathrm{NaCl}$ in water produces a precipitate that dissolves upon the addition of $\\mathrm{HCl}$ of appropriate concentration. The dissolution of the precipitate is due to the formation of",
+      "options": [
+        "$\\mathrm{PbCl}_{2}$",
+        "$\\mathrm{PbCl}_{4}$",
+        "$\\left[\\mathrm{PbCl}_{4}\\right]^{2-}$",
+        "$\\left[\\mathrm{PbCl}_{6}\\right]^{2-}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2022 Paper 2",
+      "source_index": 53,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-4",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Let $f:(0,1) \\rightarrow \\mathbb{R}$ be the function defined as $f(x)=\\sqrt{n}$ if $x \\in\\left[\\frac{1}{n+1}, \\frac{1}{n}\\right)$ where $n \\in \\mathbb{N}$. Let $g:(0,1) \\rightarrow \\mathbb{R}$ be a function such that $\\int_{x^{2}}^{x} \\sqrt{\\frac{1-t}{t}} d t<g(x)<2 \\sqrt{x}$ for all $x \\in(0,1)$. Then $\\lim _{x \\rightarrow 0} f(x) g(x)$",
+      "options": [
+        "does NOT exist",
+        "is equal to 1",
+        "is equal to 2",
+        "is equal to 3"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 4,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-5",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Let $Q$ be the cube with the set of vertices $\\left\\{\\left(x_{1}, x_{2}, x_{3}\\right) \\in \\mathbb{R}^{3}: x_{1}, x_{2}, x_{3} \\in\\{0,1\\}\\right\\}$. Let $F$ be the set of all twelve lines containing the diagonals of the six faces of the cube $Q$. Let $S$ be the set of all four lines containing the main diagonals of the cube $Q$; for instance, the line passing through the vertices $(0,0,0)$ and $(1,1,1)$ is in $S$. For lines $\\ell_{1}$ and $\\ell_{2}$, let $d\\left(\\ell_{1}, \\ell_{2}\\right)$ denote the shortest distance between them. Then the maximum value of $d\\left(\\ell_{1}, \\ell_{2}\\right)$, as $\\ell_{1}$ varies over $F$ and $\\ell_{2}$ varies over $S$, is",
+      "options": [
+        "$\\frac{1}{\\sqrt{6}}$",
+        "$\\frac{1}{\\sqrt{8}}$",
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$\\frac{1}{\\sqrt{12}}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 5,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-6",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Let $X=\\left\\{(x, y) \\in \\mathbb{Z} \\times \\mathbb{Z}: \\frac{x^{2}}{8}+\\frac{y^{2}}{20}<1\\right.$ and $\\left.y^{2}<5 x\\right\\}$. Three distinct points $P, Q$ and $R$ are randomly chosen from $X$. Then the probability that $P, Q$ and $R$ form a triangle whose area is a positive integer, is",
+      "options": [
+        "$\\frac{71}{220}$",
+        "$\\frac{73}{220}$",
+        "$\\frac{79}{220}$",
+        "$\\frac{83}{220}$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 6,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-7",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Let $P$ be a point on the parabola $y^{2}=4 a x$, where $a>0$. The normal to the parabola at $P$ meets the $x$-axis at a point $Q$. The area of the triangle $P F Q$, where $F$ is the focus of the parabola, is 120 . If the slope $m$ of the normal and $a$ are both positive integers, then the pair $(a, m)$ is",
+      "options": [
+        "$(2,3)$",
+        "$(1,3)$",
+        "$(2,4)$",
+        "$(3,4)$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 7,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-14",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Let $\\alpha, \\beta$ and $\\gamma$ be real numbers. Consider the following system of linear equations $x+2 y+z=7$ $x+\\alpha z=11$ $2 x-3 y+\\beta z=\\gamma$ Match each entry in List-I to the correct entries in List-II. \\textbf{List-I} (P) If $\\beta=\\frac{1}{2}(7 \\alpha-3)$ and $\\gamma=28$, then the system has (Q) If $\\beta=\\frac{1}{2}(7 \\alpha-3)$ and $\\gamma \\neq 28$, then the system has (R) If $\\beta \\neq \\frac{1}{2}(7 \\alpha-3)$ where $\\alpha=1$ and $\\gamma \\neq 28$, then the system has (S) If $\\beta \\neq \\frac{1}{2}(7 \\alpha-3)$ where $\\alpha=1$ and $\\gamma = 28$, then the system has \\textbf{List-II} (1) a unique solution (2) no solution (3) infinitely many solutions (4) $x=11, y=-2$ and $z=0$ as a solution (5) $x=-15, y=4$ and $z=0$ as a solution The correct option is:",
+      "options": [
+        "$(P) \\rightarrow(3) \\quad(Q) \\rightarrow(2) \\quad(R) \\rightarrow(1) \\quad(S) \\rightarrow(4)$",
+        "$(P) \\rightarrow(3) \\quad(Q) \\rightarrow(2) \\quad(R) \\rightarrow(5) \\quad(S) \\rightarrow(4)$",
+        "$(P) \\rightarrow(2) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(4) \\quad(S) \\rightarrow(5)$",
+        "$(P) \\rightarrow(2) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(1) \\quad$ (S) $\\rightarrow$ (3)"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 14,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-15",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Consider the given data with frequency distribution $$ \\begin{array}{ccccccc} x_{i} & 3 & 8 & 11 & 10 & 5 & 4 \\\\ f_{i} & 5 & 2 & 3 & 2 & 4 & 4 \\end{array} $$ Match each entry in List-I to the correct entries in List-II. \\textbf{List-I} (P) The mean of the above data is (Q) The median of the above data is (R) The mean deviation about the mean of the above data is (S) The mean deviation about the median of the above data is \\textbf{List-II} (1) 2.5 (2) 5 (3) 6 (4) 2.7 (5) 2.4 The correct option is:",
+      "options": [
+        "$(P) \\rightarrow(3) \\quad$ (Q) $\\rightarrow$ (2) $\\quad$ (R) $\\rightarrow$ (4) $\\quad$ (S) $\\rightarrow$ (5)",
+        "$(P) \\rightarrow(3) \\quad(Q) \\rightarrow(2) \\quad(R) \\rightarrow(1) \\quad(S) \\rightarrow(5)$",
+        "$(P) \\rightarrow(2) \\quad(Q) \\rightarrow(3) \\quad(R) \\rightarrow(4) \\quad(S) \\rightarrow(1)$",
+        "$(P) \\rightarrow$ (3) $\\quad$ (Q) $\\rightarrow$ (3) $\\quad$ (R) $\\rightarrow$ (5) $\\quad$ (S) $\\rightarrow$ (5)"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 15,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-16",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Let $\\ell_{1}$ and $\\ell_{2}$ be the lines $\\vec{r}_{1}=\\lambda(\\hat{i}+\\hat{j}+\\hat{k})$ and $\\vec{r}_{2}=(\\hat{j}-\\hat{k})+\\mu(\\hat{i}+\\hat{k})$, respectively. Let $X$ be the set of all the planes $H$ that contain the line $\\ell_{1}$. For a plane $H$, let $d(H)$ denote the smallest possible distance between the points of $\\ell_{2}$ and $H$. Let $H_{0}$ be a plane in $X$ for which $d\\left(H_{0}\\right)$ is the maximum value of $d(H)$ as $H$ varies over all planes in $X$. Match each entry in List-I to the correct entries in List-II. \\textbf{List-I} (P) The value of $d\\left(H_{0}\\right)$ is (Q) The distance of the point $(0,1,2)$ from $H_{0}$ is (R) The distance of origin from $H_{0}$ is (S) The distance of origin from the point of intersection of planes $y=z, x=1$ and $H_{0}$ is \\textbf{List-II} (1) $\\sqrt{3}$ (2) $\\frac{1}{\\sqrt{3}}$ (3) 0 (4) $\\sqrt{2}$ (5) $\\frac{1}{\\sqrt{2}}$ The correct option is:",
+      "options": [
+        "$(P) \\rightarrow(2) \\quad(Q) \\rightarrow(4) \\quad(R) \\rightarrow(5) \\quad(S) \\rightarrow(1)$",
+        "$(P) \\rightarrow(5) \\quad(Q) \\rightarrow(4) \\quad(R) \\rightarrow(3) \\quad(S) \\rightarrow$ (1)",
+        "$(P) \\rightarrow(2) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(3) \\quad(S) \\rightarrow$ (2)",
+        "$(P) \\rightarrow(5) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(4) \\quad(S) \\rightarrow(2)$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 16,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-17",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Let $z$ be a complex number satisfying $|z|^{3}+2 z^{2}+4 \\bar{z}-8=0$, where $\\bar{z}$ denotes the complex conjugate of $z$. Let the imaginary part of $z$ be nonzero. Match each entry in List-I to the correct entries in List-II. \\textbf{List-I} (P) $|z|^{2}$ is equal to (Q) $|Z-\\bar{Z}|^{2}$ is equal to (R) $|Z|^{2}+|Z+\\bar{Z}|^{2}$ is equal to (S) $|z+1|^{2}$ is equal to \\textbf{List-II} (1) 12 (2) 4 (3) 8 (4) 10 (5) 7 The correct option is:",
+      "options": [
+        "$(P) \\rightarrow(1) \\quad(Q) \\rightarrow(3) \\quad(R) \\rightarrow(5) \\quad(S) \\rightarrow$ (4)",
+        "$(P) \\rightarrow(2) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(3) \\quad(S) \\rightarrow(5)$",
+        "$(P) \\rightarrow(2) \\quad(Q) \\rightarrow(4) \\quad(R) \\rightarrow(5) \\quad(S) \\rightarrow(1)$",
+        "$(P) \\rightarrow(2) \\quad(Q) \\rightarrow(3) \\quad(R) \\rightarrow(5) \\quad(S) \\rightarrow(4)$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 17,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-21",
+      "subject": "Physics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "A bar of mass $M=1.00 \\mathrm{~kg}$ and length $L=0.20 \\mathrm{~m}$ is lying on a horizontal frictionless surface. One end of the bar is pivoted at a point about which it is free to rotate. A small mass $m=0.10 \\mathrm{~kg}$ is moving on the same horizontal surface with $5.00 \\mathrm{~m} \\mathrm{~s}^{-1}$ speed on a path perpendicular to the bar. It hits the bar at a distance $L / 2$ from the pivoted end and returns back on the same path with speed $\\mathrm{v}$. After this elastic collision, the bar rotates with an angular velocity $\\omega$. Which of the following statement is correct?",
+      "options": [
+        "$\\omega=6.98 \\mathrm{rad} \\mathrm{s}^{-1}$ and $\\mathrm{v}=4.30 \\mathrm{~m} \\mathrm{~s}^{-1}$",
+        "$\\omega=3.75 \\mathrm{rad} \\mathrm{s}^{-1}$ and $\\mathrm{v}=4.30 \\mathrm{~m} \\mathrm{~s}^{-1}$",
+        "$\\omega=3.75 \\mathrm{rad} \\mathrm{s}^{-1}$ and $\\mathrm{v}=10.0 \\mathrm{~m} \\mathrm{~s}^{-1}$",
+        "$\\omega=6.80 \\mathrm{rad} \\mathrm{s}^{-1}$ and $\\mathrm{v}=4.10 \\mathrm{~m} \\mathrm{~s}^{-1}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 21,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-23",
+      "subject": "Physics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "One mole of an ideal gas expands adiabatically from an initial state $\\left(T_{\\mathrm{A}}, V_{0}\\right)$ to final state $\\left(T_{\\mathrm{f}}, 5 V_{0}\\right)$. Another mole of the same gas expands isothermally from a different initial state $\\left(T_{\\mathrm{B}}, V_{0}\\right)$ to the same final state $\\left(T_{\\mathrm{f}}, 5 V_{0}\\right)$. The ratio of the specific heats at constant pressure and constant volume of this ideal gas is $\\gamma$. What is the ratio $T_{\\mathrm{A}} / T_{\\mathrm{B}}$ ?",
+      "options": [
+        "$5^{\\gamma-1}$",
+        "$5^{1-\\gamma}$",
+        "$5^{\\gamma}$",
+        "$5^{1+\\gamma}$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 23,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-24",
+      "subject": "Physics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Two satellites $\\mathrm{P}$ and $\\mathrm{Q}$ are moving in different circular orbits around the Earth (radius $R$ ). The heights of $\\mathrm{P}$ and $\\mathrm{Q}$ from the Earth surface are $h_{\\mathrm{P}}$ and $h_{\\mathrm{Q}}$, respectively, where $h_{\\mathrm{P}}=R / 3$. The accelerations of $\\mathrm{P}$ and $\\mathrm{Q}$ due to Earth's gravity are $g_{\\mathrm{P}}$ and $g_{\\mathrm{Q}}$, respectively. If $g_{\\mathrm{P}} / g_{\\mathrm{Q}}=36 / 25$, what is the value of $h_{\\mathrm{Q}}$ ?",
+      "options": [
+        "$3 R / 5$",
+        "$R / 6$",
+        "$6 R / 5$",
+        "$5 R / 6$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 24,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-31",
+      "subject": "Physics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "List-I shows different radioactive decay processes and List-II provides possible emitted particles. Match each entry in List-I with an appropriate entry from List-II, and choose the correct option. \\textbf{List-I} (P) ${ }_{92}^{238} U \\rightarrow{ }_{91}^{234} \\mathrm{~Pa}$ (Q) ${ }_{82}^{214} \\mathrm{~Pb} \\rightarrow{ }_{82}^{210} \\mathrm{~Pb}$ (R) ${ }_{81}^{210} \\mathrm{Tl} \\rightarrow{ }_{82}^{206} \\mathrm{~Pb}$ (S) ${ }_{91}^{228} \\mathrm{~Pa} \\rightarrow{ }_{88}^{224} \\mathrm{Ra}$ \\textbf{List-II} (1) one $\\alpha$ particle and one $\\beta^{+}$particle (2) three $\\beta^{-}$particles and one $\\alpha$ particle (3) two $\\beta^{-}$particles and one $\\alpha$ particle (4) one $\\alpha$ particle and one $\\beta^{-}$particle (5) one $\\alpha$ particle and two $\\beta^{+}$particles",
+      "options": [
+        "$P \\rightarrow 4, Q \\rightarrow 3, R \\rightarrow 2, S \\rightarrow 1$",
+        "$P \\rightarrow 4, Q \\rightarrow 1, R \\rightarrow 2, S \\rightarrow 5$",
+        "$P \\rightarrow 5, Q \\rightarrow 3, R \\rightarrow 1, S \\rightarrow 4$",
+        "$P \\rightarrow 5, Q \\rightarrow 1, R \\rightarrow 3, S \\rightarrow 2$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 31,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-32",
+      "subject": "Physics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Match the temperature of a black body given in List-I with an appropriate statement in List-II, and choose the correct option. [Given: Wien's constant as $2.9 \\times 10^{-3} \\mathrm{~m}-\\mathrm{K}$ and $\\frac{h c}{e}=1.24 \\times 10^{-6} \\mathrm{~V}-\\mathrm{m}$ ] \\textbf{List-I} (P) $2000 \\mathrm{~K}$ (Q) $3000 \\mathrm{~K}$ (R) $5000 \\mathrm{~K}$ (S) $10000 \\mathrm{~K}$ \\textbf{List-II} (1) The radiation at peak wavelength can lead to emission of photoelectrons from a metal of work function $4 \\mathrm{eV}$. (2) The radiation at peak wavelength is visible to human eye. (3) The radiation at peak emission wavelength will result in the widest central maximum of a single slit diffraction. (4) The power emitted per unit area is $1 / 16$ of that emitted by a blackbody at temperature $6000 \\mathrm{~K}$. (5) The radiation at peak emission wavelength can be used to image human bones.",
+      "options": [
+        "$P \\rightarrow 3, Q \\rightarrow 5, R \\rightarrow 2, S \\rightarrow 3$",
+        "$P \\rightarrow 3, Q \\rightarrow 2, R \\rightarrow 4, S \\rightarrow 1$",
+        "$P \\rightarrow 3, Q \\rightarrow 4, R \\rightarrow 2, S \\rightarrow 1$",
+        "$P \\rightarrow 1, Q \\rightarrow 2, R \\rightarrow 5, S \\rightarrow 3$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 32,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-33",
+      "subject": "Physics",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "A series LCR circuit is connected to a $45 \\sin (\\omega t)$ Volt source. The resonant angular frequency of the circuit is $10^{5} \\mathrm{rad} \\mathrm{s}^{-1}$ and current amplitude at resonance is $I_{0}$. When the angular frequency of the source is $\\omega=8 \\times 10^{4} \\mathrm{rad} \\mathrm{s}^{-1}$, the current amplitude in the circuit is $0.05 I_{0}$. If $L=50 \\mathrm{mH}$, match each entry in List-I with an appropriate value from List-II and choose the correct option. \\textbf{List-I} (P) $I_{0}$ in $\\mathrm{mA}$ (Q) The quality factor of the circuit (R) The bandwidth of the circuit in $\\mathrm{rad} \\mathrm{s}^{-1}$ (S) The peak power dissipated at resonance in Watt \\textbf{List-II} (1) 44.4 (2) 18 (3) 400 (4) 2250 (5) 500",
+      "options": [
+        "$P \\rightarrow 2, Q \\rightarrow 3, R \\rightarrow 5, S \\rightarrow 1$",
+        "$P \\rightarrow 3, Q \\rightarrow 1, R \\rightarrow 4, S \\rightarrow 2$",
+        "$P \\rightarrow 4, Q \\rightarrow 5, R \\rightarrow 3, S \\rightarrow 1$",
+        "$P \\rightarrow 4, Q \\rightarrow 2, R \\rightarrow 1, S \\rightarrow 5$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 33,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-39",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Plotting $1 / \\Lambda_{\\mathrm{m}}$ against $\\mathrm{c} \\Lambda_{\\mathrm{m}}$ for aqueous solutions of a monobasic weak acid (HX) resulted in a straight line with y-axis intercept of $\\mathrm{P}$ and slope of $\\mathrm{S}$. The ratio $\\mathrm{P} / \\mathrm{S}$ is $\\left[\\Lambda_{\\mathrm{m}}=\\right.$ molar conductivity $\\Lambda_{\\mathrm{m}}^{\\mathrm{o}}=$ limiting molar conductivity $\\mathrm{c}=$ molar concentration $\\mathrm{K}_{\\mathrm{a}}=$ dissociation constant of $\\mathrm{HX}$ ]",
+      "options": [
+        "$\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}$",
+        "$\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}} / 2$",
+        "$2 \\mathrm{~K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}$",
+        "$1 /\\left(\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}\\right)$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 39,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-40",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "On decreasing the $p \\mathrm{H}$ from 7 to 2, the solubility of a sparingly soluble salt (MX) of a weak acid (HX) increased from $10^{-4} \\mathrm{~mol} \\mathrm{~L}^{-1}$ to $10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}$. The $p\\mathrm{~K}_{\\mathrm{a}}$ of $\\mathrm{HX}$ is",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 40,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-48",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Match the reactions (in the given stoichiometry of the reactants) in List-I with one of their products given in List-II and choose the correct option. \\textbf{List-I} (P) $\\mathrm{P}_{2} \\mathrm{O}_{3}+3 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow$ (Q) $\\mathrm{P}_{4}+3 \\mathrm{NaOH}+3 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow$ (R) $\\mathrm{PCl}_{5}+\\mathrm{CH}_{3} \\mathrm{COOH} \\rightarrow$ (S) $\\mathrm{H}_{3} \\mathrm{PO}_{2}+2 \\mathrm{H}_{2} \\mathrm{O}+4 \\mathrm{AgNO}_{3} \\rightarrow$ \\textbf{List-II} (1) $\\mathrm{P}(\\mathrm{O})\\left(\\mathrm{OCH}_{3}\\right) \\mathrm{Cl}_{2}$ (2) $\\mathrm{H}_{3} \\mathrm{PO}_{3}$ (3) $\\mathrm{PH}_{3}$ (4) $\\mathrm{POCl}_{3}$ (5) $\\mathrm{H}_{3} \\mathrm{PO}_{4}$",
+      "options": [
+        "$\\mathrm{P} \\rightarrow 2$; $\\mathrm{Q} \\rightarrow 3$; $\\mathrm{R} \\rightarrow 1$; $\\mathrm{S} \\rightarrow 5$",
+        "$\\mathrm{P} \\rightarrow 3$; Q $\\rightarrow 5$; R $\\rightarrow 4$; $\\mathrm{S} \\rightarrow 2$",
+        "$\\mathrm{P} \\rightarrow 5 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 1$; S $\\rightarrow 3$",
+        "P $\\rightarrow 2$; Q $\\rightarrow 3$; R $\\rightarrow 4$; $\\mathrm{S} \\rightarrow 5$"
+      ],
+      "correct_index": 3,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 48,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-49",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "Match the electronic configurations in List-I with appropriate metal complex ions in List-II and choose the correct option. [Atomic Number: $\\mathrm{Fe}=26, \\mathrm{Mn}=25$, $\\mathrm{Co}=27$ ] \\textbf{List-I} (P) $t_{2 g}^{6} e_{g}^{0}$ (Q) $t_{2 g}^{3} e_{g}^{2}$ (R) $\\mathrm{e}^{2} \\mathrm{t}_{2}^{3}$ (S) $t_{2 g}^{4} e_{g}^{2}$ \\textbf{List-II} (1) $\\left[\\mathrm{Fe}\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{6}\\right]^{2+}$ (2) $\\left[\\mathrm{Mn}\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{6}\\right]^{2+}$ (3) $\\left[\\mathrm{Co}\\left(\\mathrm{NH}_{3}\\right)_{6}\\right]^{3+}$ (4) $\\left[\\mathrm{FeCl}_{4}\\right]^{-}$ (5) $\\left[\\mathrm{CoCl}_{4}\\right]^{2-}$",
+      "options": [
+        "$\\mathrm{P} \\rightarrow 1$; Q $\\rightarrow 4$; $\\mathrm{R} \\rightarrow 2$; $\\mathrm{S} \\rightarrow 3$",
+        "$\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 4 ; \\mathrm{S} \\rightarrow 5$",
+        "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 5 ; \\mathrm{S} \\rightarrow 1$",
+        "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 4$; $\\mathrm{S} \\rightarrow 1$"
+      ],
+      "correct_index": 3,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 49,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-1-51",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2023 Paper 1",
+      "text": "The major products obtained from the reactions in List-II are the reactants for the named reactions mentioned in List-I. Match List-I with List-II and choose the correct option. \\textbf{List-I} (P) Etard reaction (Q) Gattermann reaction (R) Gattermann-Koch reaction (S) Rosenmund reduction \\textbf{List-II} (1) Acetophenone $\\stackrel{\\mathrm{Zn}-\\mathrm{Hg}, \\mathrm{HCl}}{\\longrightarrow}$ (2) Toluene $\\underset{\\text{(ii)}\\mathrm{SOCl}_{2}}{\\stackrel{\\text { (i) } \\mathrm{KMnO}_{4}, \\mathrm{KOH}, \\Delta}{\\longrightarrow}}$ (3) Benzene $\\underset{\\text { anhyd. } \\mathrm{AlCl}_{3}}{\\stackrel{\\mathrm{CH}_{3} \\mathrm{Cl}}{\\longrightarrow}}$ (4) Aniline $\\underset{273-278 \\mathrm{~K}}{\\stackrel{\\mathrm{NaNO}_{2} / \\mathrm{HCl}}{\\longrightarrow}}$ (5) Phenol $\\stackrel{\\mathrm{Zn}, \\Delta}{\\longrightarrow}$",
+      "options": [
+        "$\\mathrm{P} \\rightarrow 2$; $\\mathrm{Q} \\rightarrow 4 ; \\mathrm{R} \\rightarrow 1 ; \\mathrm{S} \\rightarrow 3$",
+        "$\\mathrm{P} \\rightarrow 1$; $\\mathrm{Q} \\rightarrow 3$; $\\mathrm{R} \\rightarrow 5$; $\\mathrm{S} \\rightarrow 2$",
+        "$\\mathrm{P} \\rightarrow 3$; $\\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 1$; $\\mathrm{S} \\rightarrow 4$",
+        "$\\mathrm{P} \\rightarrow 3$; $\\mathrm{Q} \\rightarrow 4$; R $\\rightarrow 5$; $\\mathrm{S} \\rightarrow 2$"
+      ],
+      "correct_index": 3,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 1",
+      "source_index": 51,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-2-1",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 2",
+      "text": "Let $f:[1, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f(1)=\\frac{1}{3}$ and $3 \\int_{1}^{x} f(t) d t=x f(x)-\\frac{x^{3}}{3}, x \\in[1, \\infty)$. Let $e$ denote the base of the natural logarithm. Then the value of $f(e)$ is",
+      "options": [
+        "$\\frac{e^{2}+4}{3}$",
+        "$\\frac{\\log _{e} 4+e}{3}$",
+        "$\\frac{4 e^{2}}{3}$",
+        "$\\frac{e^{2}-4}{3}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 2",
+      "source_index": 1,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-2-2",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 2",
+      "text": "Consider an experiment of tossing a coin repeatedly until the outcomes of two consecutive tosses are same. If the probability of a random toss resulting in head is $\\frac{1}{3}$, then the probability that the experiment stops with head is",
+      "options": [
+        "$\\frac{1}{3}$",
+        "$\\frac{5}{21}$",
+        "$\\frac{4}{21}$",
+        "$\\frac{2}{7}$"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 2",
+      "source_index": 2,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-2-3",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 2",
+      "text": "For any $y \\in \\mathbb{R}$, let $\\cot ^{-1}(y) \\in(0, \\pi)$ and $\\tan ^{-1}(y) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. Then the sum of all the solutions of the equation $\\tan ^{-1}\\left(\\frac{6 y}{9-y^{2}}\\right)+\\cot ^{-1}\\left(\\frac{9-y^{2}}{6 y}\\right)=\\frac{2 \\pi}{3}$ for $0<|y|<3$, is equal to",
+      "options": [
+        "$2 \\sqrt{3}-3$",
+        "$3-2 \\sqrt{3}$",
+        "$4 \\sqrt{3}-6$",
+        "$6-4 \\sqrt{3}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 2",
+      "source_index": 3,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-2-4",
+      "subject": "Mathematics",
+      "topic": "JEE Adv 2023 Paper 2",
+      "text": "Let the position vectors of the points $P, Q, R$ and $S$ be $\\vec{a}=\\hat{i}+2 \\hat{j}-5 \\hat{k}, \\vec{b}=3 \\hat{i}+6 \\hat{j}+3 \\hat{k}$, $\\vec{c}=\\frac{17}{5} \\hat{i}+\\frac{16}{5} \\hat{j}+7 \\hat{k}$ and $\\vec{d}=2 \\hat{i}+\\hat{j}+\\hat{k}$, respectively. Then which of the following statements is true?",
+      "options": [
+        "The points $P, Q, R$ and $S$ are NOT coplanar",
+        "$\\frac{\\vec{b}+2 \\vec{d}}{3}$ is the position vector of a point which divides $P R$ internally in the ratio $5: 4$",
+        "$\\frac{\\vec{b}+2 \\vec{d}}{3}$ is the position vector of a point which divides $P R$ externally in the ratio $5: 4$",
+        "The square of the magnitude of the vector $\\vec{b} \\times \\vec{d}$ is 95"
+      ],
+      "correct_index": 1,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 2",
+      "source_index": 4,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-2-19",
+      "subject": "Physics",
+      "topic": "JEE Adv 2023 Paper 2",
+      "text": "Young's modulus of elasticity $Y$ is expressed in terms of three derived quantities, namely, the gravitational constant $G$, Planck's constant $h$ and the speed of light $c$, as $Y=c^{\\alpha} h^{\\beta} G^{\\gamma}$. Which of the following is the correct option?",
+      "options": [
+        "$\\alpha=7, \\beta=-1, \\gamma=-2$",
+        "$\\alpha=-7, \\beta=-1, \\gamma=-2$",
+        "$\\alpha=7, \\beta=-1, \\gamma=2$",
+        "$\\alpha=-7, \\beta=1, \\gamma=-2$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 2",
+      "source_index": 19,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-2-20",
+      "subject": "Physics",
+      "topic": "JEE Adv 2023 Paper 2",
+      "text": "A particle of mass $m$ is moving in the $x y$-plane such that its velocity at a point $(x, y)$ is given as $\\overrightarrow{\\mathrm{v}}=\\alpha(y \\hat{x}+2 x \\hat{y})$, where $\\alpha$ is a non-zero constant. What is the force $\\vec{F}$ acting on the particle?",
+      "options": [
+        "$\\vec{F}=2 m \\alpha^{2}(x \\hat{x}+y \\hat{y})$",
+        "$\\vec{F}=m \\alpha^{2}(y \\hat{x}+2 x \\hat{y})$",
+        "$\\vec{F}=2 m \\alpha^{2}(y \\hat{x}+x \\hat{y})$",
+        "$\\vec{F}=m \\alpha^{2}(x \\hat{x}+2 y \\hat{y})$"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 2",
+      "source_index": 20,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-2-21",
+      "subject": "Physics",
+      "topic": "JEE Adv 2023 Paper 2",
+      "text": "An ideal gas is in thermodynamic equilibrium. The number of degrees of freedom of a molecule of the gas is $n$. The internal energy of one mole of the gas is $U_{n}$ and the speed of sound in the gas is $\\mathrm{v}_{n}$. At a fixed temperature and pressure, which of the following is the correct option?",
+      "options": [
+        "$v_{3}<v_{6}$ and $U_{3}>U_{6}$",
+        "$v_{5}>v_{3}$ and $U_{3}>U_{5}$",
+        "$v_{5}>v_{7}$ and $U_{5}<U_{7}$",
+        "$v_{6}<v_{7}$ and $U_{6}<U_{7}$"
+      ],
+      "correct_index": 2,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 2",
+      "source_index": 21,
+      "difficulty_status": "provisional_uncalibrated"
+    },
+    {
+      "question_id": "JEE-JEE-Adv-2023-Paper-2-36",
+      "subject": "Chemistry",
+      "topic": "JEE Adv 2023 Paper 2",
+      "text": "Consider the following statements related to colloids. (I) Lyophobic colloids are not formed by simple mixing of dispersed phase and dispersion medium. (II) For emulsions, both the dispersed phase and the dispersion medium are liquid. (III) Micelles are produced by dissolving a surfactant in any solvent at any temperature. (IV) Tyndall effect can be observed from a colloidal solution with dispersed phase having the same refractive index as that of the dispersion medium. The option with the correct set of statements is",
+      "options": [
+        "(I) and (II)",
+        "(II) and (III)",
+        "(III) and (IV)",
+        "(II) and (IV)"
+      ],
+      "correct_index": 0,
+      "difficulty": 0.0,
+      "synthetic": false,
+      "source": "JEEBench / JEE Advanced",
+      "source_paper": "JEE Adv 2023 Paper 2",
+      "source_index": 36,
+      "difficulty_status": "provisional_uncalibrated"
+    }
+  ],
+  "source": "JEEBench",
+  "citation": "Arora et al., EMNLP 2023",
+  "difficulty_note": "Difficulty 0.0 is a neutral placeholder, not a calibrated item parameter."
+}

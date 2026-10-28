@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: era-adaptive-exam
+    runtime: python
+    plan: free
+    buildCommand: pip install -e .
+    startCommand: uvicorn era.webapp:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: ERA_DB_PATH
+        value: ./era.sqlite3
+      - key: ERA_QUESTION_BANK
+        value: ./data/jeebench_mcq.json

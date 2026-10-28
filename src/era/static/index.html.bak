@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ERA | Adaptive Examination</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar"><div class="brand-mark">ERA</div><div><strong>Adaptive Examination</strong><small>Research demonstration</small></div><div class="topbar-right" id="top-status">Ready</div></header>
+  <main class="shell">
+    <section id="welcome" class="panel welcome-panel">
+      <div class="eyebrow">COMPUTERIZED ADAPTIVE TESTING</div><h1>Welcome to your examination</h1>
+      <p class="muted">Answer each question carefully. Questions are selected adaptively based on responses. Your final screen will not display a score.</p>
+      <div class="notice"><strong>Before you begin</strong><ul><li>Choose the best answer for each question.</li><li>You cannot return to a question after submitting it.</li><li>This is a research prototype, not an official JEE examination.</li></ul></div>
+      <label for="subject">Question set</label><select id="subject"><option value="All">All subjects</option><option value="Physics">Physics</option><option value="Chemistry">Chemistry</option><option value="Mathematics">Mathematics</option></select>
+      <button id="start-btn" class="primary">Start examination <span>→</span></button><p id="welcome-error" class="error" role="alert"></p>
+    </section>
+    <section id="exam" class="panel exam-panel hidden">
+      <div class="exam-meta"><span id="subject-topic">Physics · Mechanics</span><span><span id="question-count">Question 1</span><a id="trace-link" class="dev-link hidden" href="#" target="_blank" rel="noopener">Open decision trace ↗</a></span></div>
+      <div class="progress-track"><div id="progress-bar"></div></div>
+      <h2 id="question-text">Question text</h2><form id="answer-form"><div id="options" class="options"></div><p id="answer-error" class="error" role="alert"></p>
+      <div class="exam-actions"><span class="muted" id="save-status">Select one answer</span><button type="submit" id="next-btn" class="primary" disabled>Save &amp; continue <span>→</span></button></div></form>
+    </section>
+    <section id="finished" class="panel finished-panel hidden"><div class="checkmark">✓</div><h1>Thank You</h1><p class="muted">Your examination session has been submitted.</p></section>
+    <footer>ERA research prototype · No score or ability estimate is shown to the student.</footer>
+  </main>
+  <script src="/static/app.js"></script>
+</body></html>
