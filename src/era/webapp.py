@@ -100,7 +100,14 @@ def initialize_demo_student() -> None:
     """Create or reset the configured demo student once per application startup."""
     demo_id = os.getenv("ERA_DEMO_STUDENT_ID", "").strip()
     demo_password = os.getenv("ERA_DEMO_STUDENT_PASSWORD", "")
+    print(
+        "[ERA AUTH DIAGNOSTIC] startup initializer reached; "
+        f"student_id_configured={bool(demo_id)}; "
+        f"password_configured={bool(demo_password)}; "
+        f"database_path={DB_PATH}"
+    )
     if not demo_id or not demo_password:
+        print("[ERA AUTH DIAGNOSTIC] initialization skipped: missing configuration")
         return
 
     salt = secrets.token_bytes(16)
