@@ -80,17 +80,6 @@ def _db() -> sqlite3.Connection:
         student_id TEXT PRIMARY KEY, salt TEXT NOT NULL, password_hash TEXT NOT NULL,
         created_at TEXT NOT NULL
     )""")
-    demo_id = os.getenv("ERA_DEMO_STUDENT_ID", "").strip()
-    demo_password = os.getenv("ERA_DEMO_STUDENT_PASSWORD", "")
-    if demo_id and demo_password:
-        existing = conn.execute("SELECT 1 FROM students WHERE student_id = ?", (demo_id,)).fetchone()
-        if existing is None:
-            salt = secrets.token_bytes(16)
-            password_hash = hashlib.pbkdf2_hmac("sha256", demo_password.encode("utf-8"), salt, 310_000).hex()
-            conn.execute(
-                "INSERT INTO students(student_id, salt, password_hash, created_at) VALUES (?, ?, ?, ?)",
-                (demo_id, salt.hex(), password_hash, datetime.now(timezone.utc).isoformat()),
-            )
     conn.execute("""CREATE TABLE IF NOT EXISTS responses (
         id INTEGER PRIMARY KEY AUTOINCREMENT, session_id TEXT NOT NULL,
         question_id TEXT NOT NULL, selected_index INTEGER NOT NULL, correct INTEGER NOT NULL,
@@ -103,6 +92,40 @@ def _db() -> sqlite3.Connection:
     conn.commit()
     return conn
 
+
+
+
+@app.on_event("startup")
+def initialize_demo_student() -> None:
+    """Create or reset the configured demo student once per application startup."""
+    demo_id = os.getenv("ERA_DEMO_STUDENT_ID", "").strip()
+    demo_password = os.getenv("ERA_DEMO_STUDENT_PASSWORD", "")
+    if not demo_id or not demo_password:
+        return
+
+    salt = secrets.token_bytes(16)
+    password_hash = hashlib.pbkdf2_hmac(
+        "sha256", demo_password.encode("utf-8"), salt, 310_000
+    ).hex()
+
+    with closing(_db()) as conn:
+        existing = conn.execute(
+            "SELECT 1 FROM students WHERE student_id = ?", (demo_id,)
+        ).fetchone()
+
+        if existing is None:
+            conn.execute(
+                """INSERT INTO students(student_id, salt, password_hash, created_at)
+                   VALUES (?, ?, ?, ?)""",
+                (demo_id, salt.hex(), password_hash,
+                 datetime.now(timezone.utc).isoformat()),
+            )
+        else:
+            conn.execute(
+                "UPDATE students SET salt = ?, password_hash = ? WHERE student_id = ?",
+                (salt.hex(), password_hash, demo_id),
+            )
+        conn.commit()
 
 def _persist_new_session(session_id: str, student_id: str) -> None:
     now = datetime.now(timezone.utc).isoformat()
