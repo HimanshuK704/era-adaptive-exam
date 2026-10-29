@@ -235,3 +235,15 @@ def admin_summary() -> dict:
         row = conn.execute("SELECT COUNT(*) AS sessions, COALESCE(SUM(response_count), 0) AS responses FROM sessions").fetchone()
     return {"sessions": row["sessions"], "responses": row["responses"], "question_count": len(_questions),
             "question_bank": "synthetic" if all(q.synthetic for q in _questions) else "imported/mixed"}
+
+@app.get("/api/research/ednet")
+def ednet_research_summary() -> dict:
+    """Read-only exploratory EdNet analysis for the ERA research demo."""
+    report_path = Path.cwd() / "reports" / "ednet_research_summary.json"
+    if not report_path.is_file():
+        raise HTTPException(404, "EdNet research report is not available.")
+    try:
+        report = json.loads(report_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise HTTPException(500, "Could not read EdNet research report.") from exc
+    return report

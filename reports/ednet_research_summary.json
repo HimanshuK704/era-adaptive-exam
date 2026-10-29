@@ -1,0 +1,116 @@
+{
+  "dataset": "EdNet-KT2",
+  "profiles_analyzed": 100,
+  "features": {
+    "event_count": {
+      "count": 100,
+      "mean": 1815.38,
+      "median": 438.5,
+      "min": 3.0,
+      "max": 32319.0
+    },
+    "enter_events": {
+      "count": 100,
+      "mean": 539.88,
+      "median": 131.0,
+      "min": 1.0,
+      "max": 8788.0
+    },
+    "respond_events": {
+      "count": 100,
+      "mean": 735.62,
+      "median": 162.5,
+      "min": 1.0,
+      "max": 14743.0
+    },
+    "submit_events": {
+      "count": 100,
+      "mean": 539.88,
+      "median": 131.0,
+      "min": 1.0,
+      "max": 8788.0
+    },
+    "unique_response_items": {
+      "count": 100,
+      "mean": 502.63,
+      "median": 135.0,
+      "min": 1.0,
+      "max": 8091.0
+    },
+    "answer_revisions": {
+      "count": 100,
+      "mean": 182.61,
+      "median": 27.5,
+      "min": 0.0,
+      "max": 4899.0
+    },
+    "session_count_30min_gap": {
+      "count": 100,
+      "mean": 41.56,
+      "median": 10.5,
+      "min": 1.0,
+      "max": 460.0
+    },
+    "observed_span_seconds": {
+      "count": 100,
+      "mean": 5777207.351,
+      "median": 2346305.339,
+      "min": 79.656,
+      "max": 34045957.01
+    },
+    "total_session_seconds": {
+      "count": 100,
+      "mean": 52682.224,
+      "median": 10777.396,
+      "min": 79.656,
+      "max": 784551.981
+    },
+    "median_session_seconds": {
+      "count": 100,
+      "mean": 835.728,
+      "median": 611.044,
+      "min": 53.294,
+      "max": 5092.373
+    },
+    "median_inter_event_seconds": {
+      "count": 100,
+      "mean": 11.565,
+      "median": 10.557,
+      "min": 0.593,
+      "max": 52.145
+    },
+    "median_session_gap_seconds": {
+      "count": 100,
+      "mean": 180884.928,
+      "median": 64187.649,
+      "min": 0.0,
+      "max": 4035619.311
+    }
+  },
+  "source_event_counts": {
+    "diagnosis": 2270,
+    "sprint": 139079,
+    "review_quiz": 6448,
+    "adaptive_offer": 9740,
+    "tutor": 892,
+    "my_note": 22223,
+    "review": 886
+  },
+  "platform_event_counts": {
+    "mobile": 116937,
+    "web": 64601
+  },
+  "correlations": {
+    "event_count__answer_revisions": 0.9495,
+    "event_count__unique_response_items": 0.9905,
+    "session_count_30min_gap__total_session_seconds": 0.8089,
+    "median_inter_event_seconds__answer_revisions": -0.0227
+  },
+  "limitations": [
+    "EdNet-KT2 originates from TOEIC learning activity, not JEE Advanced.",
+    "The analyzed profiles are a capped subset, not necessarily representative of all EdNet users.",
+    "A 30-minute inactivity threshold is a heuristic for segmenting sessions.",
+    "Session duration is elapsed time within inferred sessions, not verified active study time.",
+    "Behavioral associations do not establish causation or predict JEE performance."
+  ]
+}

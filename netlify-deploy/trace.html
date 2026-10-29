@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ERA | Decision Trace</title><link rel="stylesheet" href="/static/styles.css"></head><body><header class="topbar"><div class="brand-mark">ERA</div><div><strong>AI Decision Trace</strong><small>Developer view · Prototype diagnostics</small></div><div class="topbar-right" id="trace-status">Connecting…</div></header><main class="shell"><section class="panel"><div class="eyebrow">INTERNAL DIAGNOSTICS</div><h1>Decision trace</h1><p class="muted">This view exposes internal estimates and event logs. Keep it separate from the student-facing exam screen.</p><div id="trace-summary" class="notice">Waiting for trace data…</div><div id="trace-events" class="trace-events"></div><p class="error" id="trace-error" role="alert"></p></section>
+<section class="panel" id="ednet-research">
+  <div class="eyebrow">RESEARCH DATASET</div>
+  <h2>EdNet behavioral analysis</h2>
+  <p class="muted">Exploratory statistics from EdNet-KT2 profiles. These are not validated JEE performance predictors.</p>
+  <div id="ednet-status" class="notice">Loading research summary...</div>
+  <div id="ednet-stats"></div>
+  <h3>Exploratory correlations</h3>
+  <div id="ednet-correlations"></div>
+  <h3>Interpretation limits</h3>
+  <ul id="ednet-limitations"></ul>
+</section>
+<footer>Developer-only route. Not authenticated; do not use with real student data.</footer></main><script src="/static/trace.js"></script></body></html>
