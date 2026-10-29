@@ -1,16 +1,20 @@
 """Local web application for the ERA adaptive examination research prototype."""
 from __future__ import annotations
 
+import hashlib
+import hmac
 import json
 import os
+import secrets
 import sqlite3
+import time
 import uuid
 from contextlib import closing
 from datetime import datetime, timezone
 from pathlib import Path
 from threading import RLock
 
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, Header, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
@@ -27,6 +31,8 @@ app = FastAPI(title="ERA Adaptive Examination System", version="0.1.0")
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 _lock = RLock()
 _sessions: dict[str, AdaptiveEngine] = {}
+_auth_tokens: dict[str, tuple[str, float]] = {}
+_AUTH_TTL_SECONDS = 3600
 
 
 def _load_questions() -> list[Question]:
@@ -64,8 +70,27 @@ def _db() -> sqlite3.Connection:
     conn.execute("""CREATE TABLE IF NOT EXISTS sessions (
         session_id TEXT PRIMARY KEY, started_at TEXT NOT NULL, completed_at TEXT,
         response_count INTEGER NOT NULL DEFAULT 0, complete INTEGER NOT NULL DEFAULT 0,
-        theta REAL NOT NULL DEFAULT 0, posterior_sd REAL NOT NULL DEFAULT 1
+        theta REAL NOT NULL DEFAULT 0, posterior_sd REAL NOT NULL DEFAULT 1,
+        student_id TEXT
     )""")
+    session_columns = {row["name"] for row in conn.execute("PRAGMA table_info(sessions)")}
+    if "student_id" not in session_columns:
+        conn.execute("ALTER TABLE sessions ADD COLUMN student_id TEXT")
+    conn.execute("""CREATE TABLE IF NOT EXISTS students (
+        student_id TEXT PRIMARY KEY, salt TEXT NOT NULL, password_hash TEXT NOT NULL,
+        created_at TEXT NOT NULL
+    )""")
+    demo_id = os.getenv("ERA_DEMO_STUDENT_ID", "").strip()
+    demo_password = os.getenv("ERA_DEMO_STUDENT_PASSWORD", "")
+    if demo_id and demo_password:
+        existing = conn.execute("SELECT 1 FROM students WHERE student_id = ?", (demo_id,)).fetchone()
+        if existing is None:
+            salt = secrets.token_bytes(16)
+            password_hash = hashlib.pbkdf2_hmac("sha256", demo_password.encode("utf-8"), salt, 310_000).hex()
+            conn.execute(
+                "INSERT INTO students(student_id, salt, password_hash, created_at) VALUES (?, ?, ?, ?)",
+                (demo_id, salt.hex(), password_hash, datetime.now(timezone.utc).isoformat()),
+            )
     conn.execute("""CREATE TABLE IF NOT EXISTS responses (
         id INTEGER PRIMARY KEY AUTOINCREMENT, session_id TEXT NOT NULL,
         question_id TEXT NOT NULL, selected_index INTEGER NOT NULL, correct INTEGER NOT NULL,
@@ -79,11 +104,37 @@ def _db() -> sqlite3.Connection:
     return conn
 
 
-def _persist_new_session(session_id: str) -> None:
+def _persist_new_session(session_id: str, student_id: str) -> None:
     now = datetime.now(timezone.utc).isoformat()
     with closing(_db()) as conn:
-        conn.execute("INSERT INTO sessions(session_id, started_at) VALUES (?, ?)", (session_id, now))
+        conn.execute(
+            "INSERT INTO sessions(session_id, started_at, student_id) VALUES (?, ?, ?)",
+            (session_id, now, student_id),
+        )
         conn.commit()
+
+
+def _require_student(authorization: str | None = Header(default=None)) -> str:
+    if not authorization or not authorization.startswith("Bearer "):
+        raise HTTPException(401, "Please log in to continue.")
+    token = authorization[7:].strip()
+    record = _auth_tokens.get(token)
+    if not record:
+        raise HTTPException(401, "Login expired or invalid. Please sign in again.")
+    student_id, expires_at = record
+    if time.time() >= expires_at:
+        _auth_tokens.pop(token, None)
+        raise HTTPException(401, "Login expired. Please sign in again.")
+    return student_id
+
+
+def _assert_session_owner(session_id: str, student_id: str) -> None:
+    with closing(_db()) as conn:
+        row = conn.execute("SELECT student_id FROM sessions WHERE session_id = ?", (session_id,)).fetchone()
+    if row is None:
+        raise HTTPException(404, "Session not found.")
+    if row["student_id"] != student_id:
+        raise HTTPException(403, "This exam session does not belong to the logged-in student.")
 
 
 def _persist_events(session_id: str, engine: AdaptiveEngine, start: int = 0) -> None:
@@ -94,6 +145,11 @@ def _persist_events(session_id: str, engine: AdaptiveEngine, start: int = 0) -> 
             [(session_id, e.event_type, json.dumps(e.details, sort_keys=True), now) for e in engine.events[start:]],
         )
         conn.commit()
+
+
+class LoginRequest(BaseModel):
+    student_id: str = Field(min_length=1, max_length=100)
+    password: str = Field(min_length=1, max_length=256)
 
 
 class StartExamRequest(BaseModel):
@@ -108,6 +164,26 @@ class AnswerRequest(BaseModel):
 @app.get("/health")
 def health() -> dict:
     return {"status": "ok", "service": "era-adaptive-exam"}
+
+
+@app.post("/api/auth/login")
+def login(payload: LoginRequest) -> dict:
+    student_id = payload.student_id.strip()
+    with closing(_db()) as conn:
+        row = conn.execute(
+            "SELECT student_id, salt, password_hash FROM students WHERE student_id = ?", (student_id,)
+        ).fetchone()
+    if row is None:
+        raise HTTPException(401, "Invalid student ID or password.")
+    candidate = hashlib.pbkdf2_hmac(
+        "sha256", payload.password.encode("utf-8"), bytes.fromhex(row["salt"]), 310_000
+    ).hex()
+    if not hmac.compare_digest(candidate, row["password_hash"]):
+        raise HTTPException(401, "Invalid student ID or password.")
+    token = secrets.token_urlsafe(32)
+    _auth_tokens[token] = (row["student_id"], time.time() + _AUTH_TTL_SECONDS)
+    return {"access_token": token, "token_type": "bearer", "expires_in": _AUTH_TTL_SECONDS,
+            "student_id": row["student_id"]}
 
 
 @app.get("/api/meta")
@@ -128,23 +204,35 @@ def trace_page():
 
 
 @app.post("/api/sessions")
-def start_session(payload: StartExamRequest) -> dict:
+def start_session(payload: StartExamRequest, student_id: str = Depends(_require_student)) -> dict:
     eligible = [q for q in _questions if payload.subject == "All" or q.subject.lower() == payload.subject.lower()]
     if not eligible:
         raise HTTPException(400, "No questions available for that subject.")
     if len(eligible) < 6:
         raise HTTPException(400, "At least six eligible questions are required for a demo session.")
     session_id = str(uuid.uuid4())
-    engine = AdaptiveEngine(eligible)
+    total_limit = min(45, len(eligible))
+    diagnostic_items = min(15, total_limit - 1)
+    engine = AdaptiveEngine(
+        eligible,
+        max_exam_items=total_limit,
+        diagnostic_items=diagnostic_items,
+    )
     with _lock:
         _sessions[session_id] = engine
     try:
-        _persist_new_session(session_id)
+        _persist_new_session(session_id, student_id)
     except Exception as exc:
         with _lock:
             _sessions.pop(session_id, None)
         raise HTTPException(500, f"Could not create session storage: {exc}") from exc
-    return {"session_id": session_id, "total_limit": engine.max_exam_items, "available_questions": len(eligible)}
+    return {
+        "session_id": session_id,
+        "total_limit": engine.max_exam_items,
+        "diagnostic_items": engine.diagnostic_items,
+        "main_exam_items": engine.max_exam_items - engine.diagnostic_items,
+        "available_questions": len(eligible),
+    }
 
 
 def _get_engine(session_id: str) -> AdaptiveEngine:
@@ -163,7 +251,8 @@ def _public_question(question: Question, number: int, total_limit: int) -> dict:
 
 
 @app.get("/api/sessions/{session_id}/question")
-def get_next_question(session_id: str) -> dict:
+def get_next_question(session_id: str, student_id: str = Depends(_require_student)) -> dict:
+    _assert_session_owner(session_id, student_id)
     with _lock:
         engine = _get_engine(session_id)
         start = len(engine.events)
@@ -175,12 +264,37 @@ def get_next_question(session_id: str) -> dict:
                              (datetime.now(timezone.utc).isoformat(), engine.ability.responses, session_id))
                 conn.commit()
             return {"complete": True, "message": "Thank You"}
-        return {"complete": False, "question": _public_question(selection.question, len(engine.attempted_ids) + 1, engine.max_exam_items),
-                "phase": engine.phase, "remaining": engine.max_exam_items - len(engine.attempted_ids)}
+        total_answered = engine.ability.responses
+        diagnostic_items = engine.diagnostic_items or 0
+        stage_number = (
+            total_answered + 1
+            if engine.stage == "diagnostic"
+            else total_answered - diagnostic_items + 1
+        )
+        stage_limit = (
+            diagnostic_items
+            if engine.stage == "diagnostic"
+            else engine.max_exam_items - diagnostic_items
+        )
+        return {
+            "complete": False,
+            "question": _public_question(
+                selection.question,
+                len(engine.attempted_ids) + 1,
+                engine.max_exam_items,
+            ),
+            "phase": engine.phase,
+            "stage": engine.stage,
+            "stage_number": stage_number,
+            "stage_limit": stage_limit,
+            "diagnostic_items": diagnostic_items,
+            "remaining": engine.max_exam_items - len(engine.attempted_ids),
+        }
 
 
 @app.post("/api/sessions/{session_id}/answer")
-def submit_answer(session_id: str, payload: AnswerRequest) -> dict:
+def submit_answer(session_id: str, payload: AnswerRequest, student_id: str = Depends(_require_student)) -> dict:
+    _assert_session_owner(session_id, student_id)
     with _lock:
         engine = _get_engine(session_id)
         if not engine._pending_selection:
@@ -207,7 +321,8 @@ def submit_answer(session_id: str, payload: AnswerRequest) -> dict:
 
 
 @app.post("/api/sessions/{session_id}/submit")
-def submit_exam(session_id: str) -> dict:
+def submit_exam(session_id: str, student_id: str = Depends(_require_student)) -> dict:
+    _assert_session_owner(session_id, student_id)
     with _lock:
         engine = _get_engine(session_id)
         now = datetime.now(timezone.utc).isoformat()

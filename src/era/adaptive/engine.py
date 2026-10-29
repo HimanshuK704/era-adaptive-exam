@@ -10,6 +10,7 @@ class AdaptiveEngine:
     min_calibration_items: int = 4
     max_calibration_items: int = 6
     max_exam_items: int = 15
+    diagnostic_items: int | None = None
     calibration_target_sd: float = 0.55
     ability: AbilityState = field(default_factory=AbilityState)
     attempted_ids: set[str] = field(default_factory=set)
@@ -19,6 +20,9 @@ class AdaptiveEngine:
     _pending_phase: str | None = field(default=None, init=False, repr=False)
 
     def __post_init__(self) -> None:
+        if self.diagnostic_items is not None:
+            if self.diagnostic_items <= 0 or self.diagnostic_items >= self.max_exam_items:
+                raise ValueError("diagnostic_items must be positive and less than max_exam_items")
         if self.min_calibration_items < 1:
             raise ValueError("min_calibration_items must be positive")
         if self.max_calibration_items < self.min_calibration_items:
@@ -29,6 +33,13 @@ class AdaptiveEngine:
             raise ValueError("calibration_target_sd must be positive")
         if len({q.question_id for q in self.questions}) != len(self.questions):
             raise ValueError("question IDs must be unique")
+
+    @property
+    def stage(self) -> str:
+        """High-level exam stage, separate from psychometric calibration."""
+        if self.diagnostic_items is not None and self.ability.responses < self.diagnostic_items:
+            return "diagnostic"
+        return "main"
 
     @property
     def phase(self) -> str:
