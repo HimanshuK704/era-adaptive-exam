@@ -15,6 +15,7 @@ from pathlib import Path
 from threading import RLock
 
 from fastapi import Depends, FastAPI, Header, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
@@ -28,6 +29,19 @@ BASE_DIR = Path(__file__).resolve().parent
 STATIC_DIR = BASE_DIR / "static"
 DB_PATH = Path(os.getenv("ERA_DB_PATH", str(Path.cwd() / "era.sqlite3")))
 app = FastAPI(title="ERA Adaptive Examination System", version="0.1.0")
+
+_allowed_origins = [
+    origin.strip()
+    for origin in os.getenv("ERA_ALLOWED_ORIGINS", "").split(",")
+    if origin.strip()
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=_allowed_origins,
+    allow_credentials=False,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Authorization", "Content-Type"],
+)
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 _lock = RLock()
 _sessions: dict[str, AdaptiveEngine] = {}
